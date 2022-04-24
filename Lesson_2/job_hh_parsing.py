@@ -1,8 +1,17 @@
+import os
 from bs4 import BeautifulSoup as bs
 import json
 import re
 import requests
 import time
+from dotenv import load_dotenv
+from pymongo import MongoClient
+
+load_dotenv("../.env")
+MONGO_HOST = os.getenv("MONGO_HOST", None)
+MONGO_PORT = int(os.getenv("MONGO_PORT", None))
+MONGO_DB = os.getenv("MONGO_DB", None)
+MONGO_COLLECTION = os.getenv("MONGO_COLLECTION", None)
 
 HEADERS = {'User-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) '
                          'Ubuntu Chromium/80.0.3987.87 Chrome/80.0.3987.87 Safari/537.36'}
@@ -38,11 +47,21 @@ def get_salary(salary):
             }
 
 
-def hh(main_link: str, search_value: str, page_count: int):
-    html = requests.get(f'{main_link}/search/vacancy?clusters=true&area=3&ored_clusters=true'
+def hh(search_value: str, page_count: int, new = None):
+    MAIN_LINK = 'https://hh.ru'
+
+    if new:
+        # Не стал множить код и нарушать правило Do Not Repeat
+        # Добавил флаг - который будет выводить обычные вакансии или только новые
+        HTML = requests.get(f'{MAIN_LINK}/search/vacancy?clusters=true&area=3&ored_clusters=true'
                         f'&enable_snippets=true&salary=&text={search_value}', headers=HEADERS)
-    if html.ok:
-        parsed_html = bs(html.text, 'lxml')
+    else:
+        HTML = requests.get(f'https://ekaterinburg.hh.ru/search/vacancy?text={search_value}&area=3&salary='
+                            f'&currency_code=RUR&experience=doesNotMatter&order_by=relevance&search_period=1'
+                            f'&items_on_page=20&no_magic=true&L_save_area=true')
+
+    if HTML.ok:
+        parsed_html = bs(HTML.text, 'lxml')
         jobs = []
         for i in range(page_count):
             jobs_block = parsed_html.find('div', {'id': 'a11y-main-content'})
@@ -67,7 +86,7 @@ def hh(main_link: str, search_value: str, page_count: int):
                     job_data['salary_currency'] = salaries['salary_currency']
                     job_data['by_agreement'] = salaries['by_agreement']
 
-                    job_data['site'] = main_link
+                    job_data['site'] = MAIN_LINK
                     jobs.append(job_data)
             time.sleep(3)
             next_btn_block = parsed_html.find('a', attrs={'class': 'bloko-button', 'data-qa': 'pager-next'})
@@ -75,9 +94,9 @@ def hh(main_link: str, search_value: str, page_count: int):
             if next_btn_link is None:
                 return jobs
             else:
-                html = requests.get(f'{main_link}{next_btn_link}', headers=HEADERS).text
-                parsed_html = bs(html, 'lxml')
-        return jobs
+                HTML = requests.get(f'{MAIN_LINK}{next_btn_link}', headers=HEADERS).text
+                parsed_html = bs(HTML, 'lxml')
+        write_jbos_to_db(jobs)
 
 
 def write_jbos_to_json(name_file: str, list: list):
@@ -90,13 +109,23 @@ def write_jbos_to_json(name_file: str, list: list):
         json.dump(data, f_w, indent=4, ensure_ascii=False)
 
 
+def write_jbos_to_db(list):
+    with MongoClient(MONGO_HOST, MONGO_PORT) as client:
+        db = client[MONGO_DB]
+        collection = db[MONGO_COLLECTION]
+        collection.insert_many(list)
+
+
+
+
 if __name__ == '__main__':
     job_name = input('Пожалуйста введите, имя интересующей вакансии: ')
+    new_vacansy = input('Пожалуйста, набирите "1" - если хотите увидеть новые вакансии, '
+                        'в ином случае оставьте это поле пустым.')
     try:
         page_count = int(input('Введите желаемое количество страниц для просмотра'
                                '(на одной странице 20 вакансий): '))
     except ValueError:
         print('Количество страниц - должно указано только цифрой')
 
-    head_hunter = hh('https://hh.ru', job_name, page_count)
-    write_jbos_to_json('vacancy.json', head_hunter)
+    hh(job_name, page_count, new_vacansy)
