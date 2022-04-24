@@ -1,0 +1,1010 @@
+{
+    "vacancy": [
+        [
+            {
+                "vacancy_name": "Python Developer",
+                "company_name": "SpectrumData",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54936646?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 120000,
+                "salary_max": 200000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Python разработчик",
+                "company_name": "ООО Торговый холдинг Веда",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54596451?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 80000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Senior Python разработчик (Remote)",
+                "company_name": "InvestEngine",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54619375?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 5000,
+                "salary_currency": "EUR",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "ООО КЦМ",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54580594?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Senior Python Developer (remote)",
+                "company_name": "BestDoctor",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/55012554?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 250000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Web-программист python",
+                "company_name": "CityStress",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54679309?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Начинающий специалист по направлению Python (практикант)",
+                "company_name": "ООО Очень Интересно",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54869017?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Разработчик на Python в Практикум",
+                "company_name": "Яндекс",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54881123?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Системный разработчик Python",
+                "company_name": "ООО Айдеко",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/38348123?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 120000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Python-разработчик во Flow",
+                "company_name": "Яндекс",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54880496?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Python разработчик",
+                "company_name": "Точка",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/50258676?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 420000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Разработчик на С под Linux (Data Plane)",
+                "company_name": "ООО Айдеко",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/51000391?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 150000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Python разработчик на проект DATAPK middle\\senior (AioHTTP)",
+                "company_name": "Уральский центр систем безопасности",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/51489882?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Python-developer",
+                "company_name": "Тензор",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/53868680?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 120000,
+                "salary_max": 200000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Преподаватель Web-разработки на Python",
+                "company_name": "Алабуга. Международная школа",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54909530?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 80000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Python-разработчик в Яндекс.Практикум",
+                "company_name": "Яндекс",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54880403?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Backend Developer",
+                "company_name": "ООО МАГУС",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54653130?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 60000,
+                "salary_max": 180000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Преподаватель Web-разработки на Python",
+                "company_name": "Алабуга. Международная школа",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54327564?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 80000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Python developer",
+                "company_name": "LC Group",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/53864489?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Python разработчик в Yandex Pay",
+                "company_name": "Яндекс",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54767567?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Data Engineer с функциями разработки на Kotlin",
+                "company_name": "SpectrumData",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54594818?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 150000,
+                "salary_max": 250000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Преподаватель программирования",
+                "company_name": "Алгоритмика::Екатеринбург (ИП Суворова Наталия Викторовна)",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54362497?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 25000,
+                "salary_max": 50000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Аналитик",
+                "company_name": "Точка",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54869353?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 220000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Ведущий Data Engineer",
+                "company_name": "ПАО КБ «Уральский банк реконструкции и развития» (УБРиР)",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/50074553?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Инженер платформенной команды",
+                "company_name": "Точка",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/43792586?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 300000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "PHP-разработчик",
+                "company_name": "iWENGO - бизнес-школа электронной коммерции",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54566896?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 200000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Инженер DevOps",
+                "company_name": "ООО СКБ ЛАБ",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54686605?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Data-аналитик по ценообразованию",
+                "company_name": "Парфюмерно-косметический супермаркет Золотое Яблоко",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54738014?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 80000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Ведущий разработчик C++ в международную компанию",
+                "company_name": "ТРИДИВИ",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54899921?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "DevOps Engineer (удаленно)",
+                "company_name": "BestDoctor",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54395633?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 350000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Разработчик интеграционных решений",
+                "company_name": "ООО СКБ ЛАБ",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54881237?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Middle DevOps",
+                "company_name": "NAUMEN",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54982169?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Fullstack-разработчик",
+                "company_name": "Ceramic3d",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54907555?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Linux инженер",
+                "company_name": "Парфюмерно-косметический супермаркет Золотое Яблоко",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54405392?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 100000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "JavaScript-разработчик Junior",
+                "company_name": "BrandPol Group",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54776940?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 30000,
+                "salary_max": 50000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Middle QA Engineer",
+                "company_name": "ООО СКБ ЛАБ",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Fullstack разработчик PHP+Vuejs",
+                "company_name": "iWENGO - бизнес-школа электронной коммерции",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54568194?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 200000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Senior Programmer, Game (C++ / Ведущий программист C++)",
+                "company_name": "Playrix",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/54993155?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Senior DevOps",
+                "company_name": "NAUMEN",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/53169909?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            },
+            {
+                "vacancy_name": "Преподаватель курсов Python&Scratch для детей (индивидуальные занятия)",
+                "company_name": "Алгоритмика",
+                "vacancy_link": "https://ekaterinburg.hh.ru/vacancy/53189575?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Python",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "https://hh.ru"
+            }
+        ],
+        [
+            {
+                "vacancy_name": "Разработчик Python (Middle)",
+                "company_name": "Национальная транспортная ассоциация",
+                "vacancy_link": "https://www.superjob.ru/vakansii/razrabotchik-python-42622716.html",
+                "salary_min": 150000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист-разработчик Python / Django",
+                "company_name": "Удачный выбор",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html",
+                "salary_min": 170000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Разработчик Python",
+                "company_name": "Ботобот",
+                "vacancy_link": "https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html",
+                "salary_min": 180000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Senior Python Developer / Python Developer",
+                "company_name": "Криптонит",
+                "vacancy_link": "https://www.superjob.ru/vakansii/senior-python-developer-42450172.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Специалист по обработке данных R, Python, SPSS",
+                "company_name": "ФГБОУ ВО МГППУ",
+                "vacancy_link": "https://www.superjob.ru/vakansii/specialist-po-obrabotke-dannyh-r-42635052.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "ФГБУ «ВНИИ труда» Минтруда России",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42797197.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python Developer",
+                "company_name": "Ваша кадровая служба",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-42795114.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python-developer",
+                "company_name": "Крайт",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-42902668.html",
+                "salary_min": 250000,
+                "salary_max": 350000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Middle Python developer",
+                "company_name": "СофтМобайл",
+                "vacancy_link": "https://www.superjob.ru/vakansii/middle-python-developer-42436719.html",
+                "salary_min": 100000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист-разработчик Python",
+                "company_name": "Группа Ремедиум",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42601580.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Senior Python Backend Developer / Web-разработчик",
+                "company_name": "Perfect Systems",
+                "vacancy_link": "https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html",
+                "salary_min": 230000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python developer middle",
+                "company_name": "КонсалтПро",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-middle-42891002.html",
+                "salary_min": 200000,
+                "salary_max": 280000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python developer middle",
+                "company_name": "БПЦ",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-middle-42493400.html",
+                "salary_min": 150000,
+                "salary_max": 200000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "АВ Софт",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42492612.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "Халимуллин Э. Р.",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42569614.html",
+                "salary_min": 90000,
+                "salary_max": 100000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Backend-разработчик Python (Junior+)",
+                "company_name": "Корпорация \"Ли Вест\"",
+                "vacancy_link": "https://www.superjob.ru/vakansii/backend-razrabotchik-python-42755992.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python Backend Developer",
+                "company_name": "Аналитикс Групп",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-backend-developer-42568050.html",
+                "salary_min": 135000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python-разработчик",
+                "company_name": "АГИМА",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-razrabotchik-42746851.html",
+                "salary_min": 200000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Инженер-конструктор Revit, Python, Dynamo",
+                "company_name": "Zigzag",
+                "vacancy_link": "https://www.superjob.ru/vakansii/inzhener-konstruktor-revit-42522698.html",
+                "salary_min": 70000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Backend-разработчик Python",
+                "company_name": "Турчанинов",
+                "vacancy_link": "https://www.superjob.ru/vakansii/backend-razrabotchik-python-42841884.html",
+                "salary_min": 40000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Разработчик Python (Middle)",
+                "company_name": "Национальная транспортная ассоциация",
+                "vacancy_link": "https://www.superjob.ru/vakansii/razrabotchik-python-42622716.html",
+                "salary_min": 150000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист-разработчик Python / Django",
+                "company_name": "Удачный выбор",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html",
+                "salary_min": 170000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Разработчик Python",
+                "company_name": "Ботобот",
+                "vacancy_link": "https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html",
+                "salary_min": 180000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Senior Python Developer / Python Developer",
+                "company_name": "Криптонит",
+                "vacancy_link": "https://www.superjob.ru/vakansii/senior-python-developer-42450172.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Специалист по обработке данных R, Python, SPSS",
+                "company_name": "ФГБОУ ВО МГППУ",
+                "vacancy_link": "https://www.superjob.ru/vakansii/specialist-po-obrabotke-dannyh-r-42635052.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "ФГБУ «ВНИИ труда» Минтруда России",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42797197.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python Developer",
+                "company_name": "Ваша кадровая служба",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-42795114.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python-developer",
+                "company_name": "Крайт",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-42902668.html",
+                "salary_min": 250000,
+                "salary_max": 350000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Middle Python developer",
+                "company_name": "СофтМобайл",
+                "vacancy_link": "https://www.superjob.ru/vakansii/middle-python-developer-42436719.html",
+                "salary_min": 100000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист-разработчик Python",
+                "company_name": "Группа Ремедиум",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42601580.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Senior Python Backend Developer / Web-разработчик",
+                "company_name": "Perfect Systems",
+                "vacancy_link": "https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html",
+                "salary_min": 230000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python developer middle",
+                "company_name": "КонсалтПро",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-middle-42891002.html",
+                "salary_min": 200000,
+                "salary_max": 280000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python developer middle",
+                "company_name": "БПЦ",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-middle-42493400.html",
+                "salary_min": 150000,
+                "salary_max": 200000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "АВ Софт",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42492612.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "Халимуллин Э. Р.",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42569614.html",
+                "salary_min": 90000,
+                "salary_max": 100000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Backend-разработчик Python (Junior+)",
+                "company_name": "Корпорация \"Ли Вест\"",
+                "vacancy_link": "https://www.superjob.ru/vakansii/backend-razrabotchik-python-42755992.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python Backend Developer",
+                "company_name": "Аналитикс Групп",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-backend-developer-42568050.html",
+                "salary_min": 135000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python-разработчик",
+                "company_name": "АГИМА",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-razrabotchik-42746851.html",
+                "salary_min": 200000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Инженер-конструктор Revit, Python, Dynamo",
+                "company_name": "Zigzag",
+                "vacancy_link": "https://www.superjob.ru/vakansii/inzhener-konstruktor-revit-42522698.html",
+                "salary_min": 70000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Backend-разработчик Python",
+                "company_name": "Турчанинов",
+                "vacancy_link": "https://www.superjob.ru/vakansii/backend-razrabotchik-python-42841884.html",
+                "salary_min": 40000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            }
+        ],
+        [
+            {
+                "vacancy_name": "Программист-разработчик Python / Django",
+                "company_name": "Удачный выбор",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html",
+                "salary_min": 170000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Разработчик Python",
+                "company_name": "Ботобот",
+                "vacancy_link": "https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html",
+                "salary_min": 180000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Senior Python Developer / Python Developer",
+                "company_name": "Криптонит",
+                "vacancy_link": "https://www.superjob.ru/vakansii/senior-python-developer-42450172.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Специалист по обработке данных R, Python, SPSS",
+                "company_name": "ФГБОУ ВО МГППУ",
+                "vacancy_link": "https://www.superjob.ru/vakansii/specialist-po-obrabotke-dannyh-r-42635052.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "ФГБУ «ВНИИ труда» Минтруда России",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42797197.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python Developer",
+                "company_name": "Ваша кадровая служба",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-42795114.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python-developer",
+                "company_name": "Крайт",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-42902668.html",
+                "salary_min": 250000,
+                "salary_max": 350000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист-разработчик Python",
+                "company_name": "Группа Ремедиум",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42601580.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Senior Python Backend Developer / Web-разработчик",
+                "company_name": "Perfect Systems",
+                "vacancy_link": "https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html",
+                "salary_min": 230000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python developer middle",
+                "company_name": "КонсалтПро",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-developer-middle-42891002.html",
+                "salary_min": 200000,
+                "salary_max": 280000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "АВ Софт",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42492612.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python",
+                "company_name": "Халимуллин Э. Р.",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42569614.html",
+                "salary_min": 90000,
+                "salary_max": 100000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python Backend Developer",
+                "company_name": "Аналитикс Групп",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-backend-developer-42568050.html",
+                "salary_min": 135000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Python-разработчик",
+                "company_name": "АГИМА",
+                "vacancy_link": "https://www.superjob.ru/vakansii/python-razrabotchik-42746851.html",
+                "salary_min": 200000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Программист Python (Linux)",
+                "company_name": "Технопарк «Сколково»",
+                "vacancy_link": "https://www.superjob.ru/vakansii/programmist-python-42705949.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Ведущий программист Python",
+                "company_name": "БПЦ",
+                "vacancy_link": "https://www.superjob.ru/vakansii/veduschij-programmist-python-42540492.html",
+                "salary_min": 150000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Team Lead Python / Django, руководитель отдела разработки и тестирования",
+                "company_name": "Удачный выбор",
+                "vacancy_link": "https://www.superjob.ru/vakansii/team-lead-python-42806060.html",
+                "salary_min": 300000,
+                "salary_max": 400000,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Разработчик ETL-процессов / Data Engineer (Hadoop)",
+                "company_name": "Сбербанк",
+                "vacancy_link": "https://www.superjob.ru/vakansii/razrabotchik-etl-processov-42465394.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Инженер IT-отдела",
+                "company_name": "Тотал",
+                "vacancy_link": "https://www.superjob.ru/vakansii/inzhener-it-otdela-41569858.html",
+                "salary_min": 150000,
+                "salary_max": 0,
+                "salary_currency": "руб",
+                "by_agreement": false,
+                "site": "www.superjob.ru"
+            },
+            {
+                "vacancy_name": "Руководитель проекта АСУ ТП",
+                "company_name": "Объединенная энергетическая компания",
+                "vacancy_link": "https://www.superjob.ru/vakansii/rukovoditel-proekta-asu-tp-42738892.html",
+                "salary_min": 0,
+                "salary_max": 0,
+                "salary_currency": "",
+                "by_agreement": true,
+                "site": "www.superjob.ru"
+            }
+        ]
+    ]
+}
