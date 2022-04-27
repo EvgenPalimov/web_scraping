@@ -7,15 +7,26 @@ from pymongo import MongoClient
 
 load_dotenv("../.env")
 
-LENTA_NEWS = {
-    'url': 'https://lenta.ru',
-    'items_xpath': '//div[@class="last24"]//a',
-    'name_source_xpath': 'Lenta.ru',
-    'news_title_xpath': './/span[contains(@class, "__title")]//text()',
-    'link_to_news': './@href',
-    'date_of_publication_xpath': '//time[contains(@class, "topic-header__item")]//text()',
-    're_value': r'(\d.*),.'
+MAIL_NEWS = {
+    'url': 'https://news.mail.ru',
+    'items_xpath': '//ul[contains(@class, "list_half")]//li',
+    'name_source_xpath': '//a[contains(@class, "breadcrumbs__link")]/span//text()',
+    'news_title_xpath': './a//text()',
+    'link_to_news': './a/@href',
+    'date_of_publication_xpath': '//span[contains(@class, "breadcrumbs__text")]/@datetime',
+    're_value': r'T(\d.*)'
 }
+
+YANDEX_NEWS = {
+    'url': 'https://news.mail.ru',
+    'items_xpath': '//div[contains(@class, "news-top-flexible-stories")]',
+    'name_source_xpath': '//span[contains(@class, "news-story__subtitle-text")]//text()',
+    'news_title_xpath': './/a[contains(@class, "mg-card__link")]//text()',
+    'link_to_news': './/a[contains(@class, "mg-card__link")]/@href',
+    'date_of_publication_xpath': '//span[contains(@class, "breadcrumbs__text")]/@datetime',
+    're_value': r'T(\d.*)'
+}
+
 
 class News_lenta:
 
@@ -39,20 +50,23 @@ class News_lenta:
         self.link_news = ''
         self.news = {}
 
-    def get_value(self, link, xpath_str):
+    def get_value(self, link, xpath_str, flag=None):
         r = requests.get(link, headers=self.HEADERS)
         dom = fromstring(r.text)
-        date = dom.xpath(xpath_str)[0]
-        return re.sub(self.re_value, '', date)
+        value = dom.xpath(xpath_str)[0]
+        # Сдела флаг, если нужна обработка строик, регулярным выражением
+        if flag == 're':
+            return re.sub(self.re_value, '', value)
+        else:
+            return value
 
     def get_data(self, items):
         for item in items:
             self.news['title_news'] = item.xpath(self.NEWS_TITLE_XPATH)[0]
-            link = item.xpath(self.LINK_TO_NEWS)[0]
-            self.link_news = f'{self.URL}{link}'
+            self.link_news = item.xpath(self.LINK_TO_NEWS)[0]
             self.news['link_news'] = self.link_news
-            self.news['name_source'] = self.NAME_SOURCE_XPATH
-            self.news['date'] = self.get_value(self.link_news, self.DATE_OF_PUBLICATION_XPATH)
+            self.news['name_source'] = self.get_value(self.link_news, self.NAME_SOURCE_XPATH)
+            self.news['date'] = self.get_value(self.link_news, self.DATE_OF_PUBLICATION_XPATH, 're')
             self.write_news_to_db()
 
     def get_html(self):
@@ -72,5 +86,5 @@ class News_lenta:
             )
 
 
-start = News_lenta(LENTA_NEWS)
+start = News_lenta(MAIL_NEWS)
 start.get_html()
