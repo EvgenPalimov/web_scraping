@@ -61,7 +61,8 @@ class Posts:
         :param items: Список постов для извлечения информации
         '''
         for item in items:
-            self.posts['text'] = item.xpath(self.TEXT_XPATH)[0]
+            text_list = item.xpath(self.TEXT_XPATH)
+            self.posts['text'] = '\n'.join(text_list)
             new_link_to_post = item.xpath(self.LINK_TO_POST_XPATH)[0]
             self.link_to_post = f'https://vk.com{new_link_to_post}/'
             self.posts['link_to_post'] = self.link_to_post
@@ -106,6 +107,9 @@ class Posts:
         self.search_for_posts(driver)
 
         for i in range(MAX_PAGE_NUMBER):
+            # while True:
+            #     count = len(self.html_data)
+
             # Проверка на всплывающий баннер аутификации
             try:
                 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, 'UnauthActionBox__close'))).click()
@@ -116,6 +120,14 @@ class Posts:
             data_posts = driver.find_elements(by=By.CLASS_NAME, value='_post')
             webdriver.ActionChains(driver).move_to_element(data_posts[-1]).perform()
             self.html_data = driver.page_source
+
+            # if count == len(self.html_data):
+            #     break
+            # На счет задание скролить до конца:
+            # Можно сделать бесконечный цикл и сравнить длину html_data в начале цикла
+            # и в конце, когда она перестанет увеличиватся то значит дошли до конца и можно
+            # останавливать цикл. Пока такой вариант - самый простой, но можно придумать что
+            # нибудь и по заумнее.
 
         dom = html.fromstring(self.html_data)
         items = dom.xpath(self.ITEMS_XPATH)
