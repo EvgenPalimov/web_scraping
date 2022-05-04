@@ -28,7 +28,6 @@ VK_POSTS_DATA = {
 }
 
 
-
 class Posts:
 
     def __init__(self, params):
@@ -54,7 +53,6 @@ class Posts:
         self.link_to_post = ''
         self.posts = {}
 
-
     def get_data(self, items: list):
         '''
         Функция для извлечения данных с сайта и передача на запись в БД
@@ -73,7 +71,6 @@ class Posts:
             self.posts['like_views'] = re.sub(r'\s\w*', '', new_like_views)
             self.write_news_to_db()
 
-
     def search_for_posts(self, driver: webdriver.Chrome):
         '''
         Функция - для фильтрации постов. Вводится значение через консоль, если пустая строка -
@@ -89,7 +86,6 @@ class Posts:
             search_click.click()
             search_input = driver.find_element(by=By.CLASS_NAME, value='ui_search_field')
             search_input.send_keys(search_answer + Keys.ENTER)
-
 
     def get_html(self):
         '''
@@ -112,11 +108,12 @@ class Posts:
 
             # Проверка на всплывающий баннер аутификации
             try:
-                WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, 'UnauthActionBox__close'))).click()
+                WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.CLASS_NAME, 'UnauthActionBox__close'))).click()
                 print('Окно с аутификацией было закрыто.')
             except Exception:
                 # Думал сделать просто заглушку "pass", но решил оставить так
-               print('Окна с аутификацией - не было.')
+                print('Окна с аутификацией - не было.')
             data_posts = driver.find_elements(by=By.CLASS_NAME, value='_post')
             webdriver.ActionChains(driver).move_to_element(data_posts[-1]).perform()
             self.html_data = driver.page_source
