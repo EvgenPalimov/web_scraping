@@ -2,14 +2,14 @@ import re
 import scrapy
 from scrapy.http import TextResponse
 
-from Lesson_6.jobparser.items import JobparserItem
+from jobparser.items import JobparserItem
 
 TEMPLATE_URL = 'https://www.superjob.ru/vacancy/search/?keywords='
 
 
 class SjruSpider(scrapy.Spider):
     name = 'sjru'
-    allowed_domains = ['www.superjob.ru']
+    allowed_domains = ['superjob.ru']
 
     def __init__(self, query, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -65,4 +65,4 @@ class SjruSpider(scrapy.Spider):
 
         next_url = response.xpath('//a[contains(@class, "f-test-button-dalshe")]/@href').get()
         if next_url:
-            yield response.follow(f'{self.site_for_vacancies}{next_url}', callback=self.parse)
+            yield response.follow(next_url, callback=self.parse)

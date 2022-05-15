@@ -2,14 +2,14 @@ import re
 import scrapy
 from scrapy.http import TextResponse
 
-from Lesson_6.jobparser.items import JobparserItem
+from jobparser.items import JobparserItem
 
 TEMPLATE_URL = 'https://hh.ru/search/vacancy?text='
 
 
 class HhruSpider(scrapy.Spider):
     name = 'hhru'
-    allowed_domains = ['www.hh.ru']
+    allowed_domains = ['hh.ru']
 
     def __init__(self, query, *args, **kwargs):
         super().__init__(*args, **kwargs)
