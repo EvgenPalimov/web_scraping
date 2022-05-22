@@ -1,0 +1,1255 @@
+2022-05-23 00:20:21 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: chitai_gorod)
+2022-05-23 00:20:21 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-23 00:20:29 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'chitai_gorod',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'chitai_gorod.spiders',
+ 'SPIDER_MODULES': ['chitai_gorod.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-23 00:20:29 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-23 00:20:29 [scrapy.extensions.telnet] INFO: Telnet Password: 86adca0dee21f640
+2022-05-23 00:20:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-23 00:20:31 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://localhost:57215/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--start-maximized"]}}}
+2022-05-23 00:20:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): localhost:57215
+2022-05-23 00:20:32 [urllib3.connectionpool] DEBUG: http://localhost:57215 "POST /session HTTP/1.1" 200 789
+2022-05-23 00:20:32 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:20:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy_selenium.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-23 00:20:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-23 00:20:33 [scrapy.middleware] INFO: Enabled item pipelines:
+['chitai_gorod.pipelines.ChitaiGorodImagesPipeline',
+ 'chitai_gorod.pipelines.ChitaiGorodPipeline']
+2022-05-23 00:20:33 [scrapy.core.engine] INFO: Spider opened
+2022-05-23 00:20:35 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-23 00:20:35 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-23 00:20:35 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://localhost:57215/session/794b883c8c37d016c9821b6520d68577/url {"url": "https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80"}
+2022-05-23 00:21:01 [urllib3.connectionpool] DEBUG: http://localhost:57215 "POST /session/794b883c8c37d016c9821b6520d68577/url HTTP/1.1" 200 14
+2022-05-23 00:21:01 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:21:01 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:57215/session/794b883c8c37d016c9821b6520d68577/screenshot {}
+2022-05-23 00:21:01 [urllib3.connectionpool] DEBUG: http://localhost:57215 "GET /session/794b883c8c37d016c9821b6520d68577/screenshot HTTP/1.1" 200 85408
+2022-05-23 00:21:01 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:21:01 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:57215/session/794b883c8c37d016c9821b6520d68577/source {}
+2022-05-23 00:21:01 [urllib3.connectionpool] DEBUG: http://localhost:57215 "GET /session/794b883c8c37d016c9821b6520d68577/source HTTP/1.1" 200 266548
+2022-05-23 00:21:01 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:21:01 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:57215/session/794b883c8c37d016c9821b6520d68577/url {}
+2022-05-23 00:21:02 [urllib3.connectionpool] DEBUG: http://localhost:57215 "GET /session/794b883c8c37d016c9821b6520d68577/url HTTP/1.1" 200 131
+2022-05-23 00:21:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:21:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80> (referer: None)
+2022-05-23 00:21:46 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2022-05-23 00:21:46 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.chitai-gorod.ru/catalog/book/715441/> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unexpected eof while reading')]>]
+2022-05-23 00:21:47 [filelock] DEBUG: Attempting to acquire lock 1551732113856 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:21:47 [filelock] DEBUG: Lock 1551732113856 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:21:47 [filelock] DEBUG: Attempting to release lock 1551732113856 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:21:47 [filelock] DEBUG: Lock 1551732113856 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:21:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2893944/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:21:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/933/2893318_detail.jpg> (referer: None)
+2022-05-23 00:21:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/933/2893318_detail.jpg> referred in <None>
+2022-05-23 00:21:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+{'features_books': [{'ID товара': '2893318',
+                     'ISBN': '978-5-907333-24-6',
+                     'Вес, г': '150',
+                     'Год издания': '2020',
+                     'Издательство': 'Детское время',
+                     'Кол-во страниц': '32',
+                     'Переводчик': 'Асылгареев В.Р.',
+                     'Тип обложки': 'Мягкая бумажная',
+                     'Формат': '28.8 x 20.5 x 0.3'}],
+ 'img_info': ['full/lego-harry-potter-vesiolye-raskraski-garri-potter/2893318_detail.jpg'],
+ 'price': [374],
+ 'title': 'LEGO Harry Potter - Весёлые раскраски: Гарри Поттер',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2893944/'}
+2022-05-23 00:21:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/737677/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:21:53 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_1.jpg> referred in <None>
+2022-05-23 00:21:53 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_detail.jpg> referred in <None>
+2022-05-23 00:21:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+{'features_books': [{'ID товара': '2415361',
+                     'ISBN': '978-5-389-07781-2',
+                     'Вес, г': '510',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2014',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '480',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '30000',
+                     'Том': '2',
+                     'Формат': '20.6 x 13 x 3.7',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-tainaia-komnata/2415361_1.jpg',
+              'full/garri-potter-i-tainaia-komnata/2415361_detail.jpg'],
+ 'price': [658],
+ 'title': 'Гарри Поттер и Тайная комната',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/737677/'}
+2022-05-23 00:21:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909494/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:21:59 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/152/2915253_detail.jpg> referred in <None>
+2022-05-23 00:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+{'features_books': [{'ID товара': '2915253',
+                     'ISBN': '978-5-04-156401-8',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2022',
+                     'Издательство': 'Эксмодетство',
+                     'Кол-во страниц': '112',
+                     'Серия': 'Гарри Поттер. Книги по фильмам',
+                     'Тираж': '3000'}],
+ 'img_info': ['full/garri-potter-origami/2915253_detail.jpg'],
+ 'price': [1345],
+ 'title': 'Гарри Поттер. Оригами',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2909494/'}
+2022-05-23 00:22:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/776859/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/412/2441276_detail.jpg> (referer: None)
+2022-05-23 00:22:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/412/2441276_detail.jpg> referred in <None>
+2022-05-23 00:22:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/898528/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:13 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_detail.jpg> referred in <None>
+2022-05-23 00:22:13 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_1.jpg> referred in <None>
+2022-05-23 00:22:13 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_2.jpg> referred in <None>
+2022-05-23 00:22:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+{'features_books': [{'ID товара': '2517303',
+                     'ISBN': '978-5-389-10818-9',
+                     'Вес, г': '1300',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2016',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '246',
+                     'Тип обложки': 'Суперобложка',
+                     'Тираж': '17000',
+                     'Том': '1',
+                     'Формат': '27.5 x 23.5 x 2.5',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-filosofskii-kamen/2517303_detail.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2517303_1.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2517303_2.jpg'],
+ 'price': [1921],
+ 'title': 'Гарри Поттер и философский камень',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/898528/'}
+2022-05-23 00:22:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/412/2441276_2.jpg> (referer: None)
+2022-05-23 00:22:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/412/2441276_2.jpg> referred in <None>
+2022-05-23 00:22:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/755578/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/412/2441276_1.jpg> (referer: None)
+2022-05-23 00:22:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/412/2441276_1.jpg> referred in <None>
+2022-05-23 00:22:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+{'features_books': [{'ID товара': '2441276',
+                     'ISBN': '978-5-389-07789-8',
+                     'Вес, г': '610',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2015',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '704',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '30000',
+                     'Том': '4',
+                     'Формат': '20.6 x 13.5 x 4',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-kubok-ognia/2441276_detail.jpg',
+              'full/garri-potter-i-kubok-ognia/2441276_2.jpg',
+              'full/garri-potter-i-kubok-ognia/2441276_1.jpg'],
+ 'price': [819],
+ 'title': 'Гарри Поттер и Кубок Огня',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/776859/'}
+2022-05-23 00:22:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1013872/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/254/2425429_2.jpg> (referer: None)
+2022-05-23 00:22:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/254/2425429_2.jpg> referred in <None>
+2022-05-23 00:22:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1213502/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/254/2425429_detail.jpg> (referer: None)
+2022-05-23 00:22:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/254/2425429_detail.jpg> referred in <None>
+2022-05-23 00:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/793328/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:35 [scrapy.extensions.logstats] INFO: Crawled 16 pages (at 15 pages/min), scraped 5 items (at 5 items/min)
+2022-05-23 00:22:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/254/2425429_1.jpg> (referer: None)
+2022-05-23 00:22:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/254/2425429_1.jpg> referred in <None>
+2022-05-23 00:22:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2907191/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+{'features_books': [{'ID товара': '2425429',
+                     'ISBN': '978-5-389-07788-1',
+                     'Вес, г': '560',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2014',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '528',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '30000',
+                     'Том': '3',
+                     'Формат': '20.6 x 13.2 x 3.8',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-uznik-azkabana/2425429_2.jpg',
+              'full/garri-potter-i-uznik-azkabana/2425429_detail.jpg',
+              'full/garri-potter-i-uznik-azkabana/2425429_1.jpg'],
+ 'price': [658],
+ 'title': 'Гарри Поттер и узник Азкабана',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/755578/'}
+2022-05-23 00:22:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/166/2616643_detail.jpg> (referer: None)
+2022-05-23 00:22:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/166/2616643_detail.jpg> referred in <None>
+2022-05-23 00:22:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+{'features_books': [{'ID товара': '2616643',
+                     'ISBN': '978-5-389-11837-9',
+                     'Вес, г': '1600',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2018',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '329',
+                     'Тип обложки': 'Суперобложка',
+                     'Тираж': '10000',
+                     'Том': '3',
+                     'Формат': '27.5 x 23.5 x 3.2',
+                     'Художник': 'Кей Дж.',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-uznik-azkabana/2616643_detail.jpg'],
+ 'price': [2068],
+ 'title': 'Гарри Поттер и узник Азкабана',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/1013872/'}
+2022-05-23 00:22:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2827937/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2887851/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:22:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/27/591/2759132_1.jpg> (referer: None)
+2022-05-23 00:22:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/27/591/2759132_1.jpg> referred in <None>
+2022-05-23 00:22:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/398610/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:23:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/27/591/2759132_detail.jpg> (referer: None)
+2022-05-23 00:23:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/27/591/2759132_detail.jpg> referred in <None>
+2022-05-23 00:23:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/819333/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:23:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/27/591/2759132_2.jpg> (referer: None)
+2022-05-23 00:23:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/27/591/2759132_2.jpg> referred in <None>
+2022-05-23 00:23:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/827013/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:23:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/27/591/2759132_3.jpg> (referer: None)
+2022-05-23 00:23:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/27/591/2759132_3.jpg> referred in <None>
+2022-05-23 00:23:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+{'features_books': [{'ID товара': '2759132',
+                     'ISBN': '978-5-389-13319-8',
+                     'Вес, г': '2090',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2019',
+                     'Издательство': 'Азбука-Аттикус',
+                     'Кол-во страниц': '454',
+                     'Переводчик': 'Спивак М.',
+                     'Серия': 'Гарри Поттер',
+                     'Тип обложки': 'Суперобложка',
+                     'Тираж': '12000',
+                     'Том': '4',
+                     'Формат': '27.7 x 23.7 x 4.5',
+                     'Художник': 'Кей Д.',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-kubok-ognia/2759132_1.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_detail.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_2.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_3.jpg'],
+ 'price': [2512],
+ 'title': 'Гарри Поттер и Кубок Огня',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/1213502/'}
+2022-05-23 00:23:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=3> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:23:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/511/2451179_2.jpg> (referer: None)
+2022-05-23 00:23:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/511/2451179_2.jpg> referred in <None>
+2022-05-23 00:23:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1022513/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:23:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/511/2451179_1.jpg> (referer: None)
+2022-05-23 00:23:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/511/2451179_1.jpg> referred in <None>
+2022-05-23 00:23:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/939096/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:24:13 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: chitai_gorod)
+2022-05-23 00:24:13 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-23 00:24:21 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'chitai_gorod',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'chitai_gorod.spiders',
+ 'SPIDER_MODULES': ['chitai_gorod.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-23 00:24:21 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-23 00:24:21 [scrapy.extensions.telnet] INFO: Telnet Password: 5e971b7af4b35770
+2022-05-23 00:24:21 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-23 00:24:23 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://localhost:57386/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--start-maximized"]}}}
+2022-05-23 00:24:23 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): localhost:57386
+2022-05-23 00:24:24 [urllib3.connectionpool] DEBUG: http://localhost:57386 "POST /session HTTP/1.1" 200 789
+2022-05-23 00:24:24 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:24:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy_selenium.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-23 00:24:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-23 00:24:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['chitai_gorod.pipelines.ChitaiGorodImagesPipeline',
+ 'chitai_gorod.pipelines.ChitaiGorodPipeline']
+2022-05-23 00:24:24 [scrapy.core.engine] INFO: Spider opened
+2022-05-23 00:24:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-23 00:24:26 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-23 00:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://localhost:57386/session/775b3935501fed8e68b8a36e1ae8eebe/url {"url": "https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80"}
+2022-05-23 00:24:50 [urllib3.connectionpool] DEBUG: http://localhost:57386 "POST /session/775b3935501fed8e68b8a36e1ae8eebe/url HTTP/1.1" 200 14
+2022-05-23 00:24:50 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:24:50 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:57386/session/775b3935501fed8e68b8a36e1ae8eebe/screenshot {}
+2022-05-23 00:24:50 [urllib3.connectionpool] DEBUG: http://localhost:57386 "GET /session/775b3935501fed8e68b8a36e1ae8eebe/screenshot HTTP/1.1" 200 85460
+2022-05-23 00:24:50 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:24:50 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:57386/session/775b3935501fed8e68b8a36e1ae8eebe/source {}
+2022-05-23 00:24:51 [urllib3.connectionpool] DEBUG: http://localhost:57386 "GET /session/775b3935501fed8e68b8a36e1ae8eebe/source HTTP/1.1" 200 266547
+2022-05-23 00:24:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:24:51 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:57386/session/775b3935501fed8e68b8a36e1ae8eebe/url {}
+2022-05-23 00:24:51 [urllib3.connectionpool] DEBUG: http://localhost:57386 "GET /session/775b3935501fed8e68b8a36e1ae8eebe/url HTTP/1.1" 200 131
+2022-05-23 00:24:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:24:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80> (referer: None)
+2022-05-23 00:25:16 [filelock] DEBUG: Attempting to acquire lock 2081671739376 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:25:16 [filelock] DEBUG: Lock 2081671739376 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:25:16 [filelock] DEBUG: Attempting to release lock 2081671739376 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:25:16 [filelock] DEBUG: Lock 2081671739376 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:25:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/715441/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:25:18 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/059/2405917_1.jpg> referred in <None>
+2022-05-23 00:25:18 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/059/2405917_detail.jpg> referred in <None>
+2022-05-23 00:25:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909494/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:25:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/715441/>
+{'features_books': [{'ID товара': '2405917',
+                     'ISBN': '978-5-389-07435-4',
+                     'Вес, г': '460',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2014',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '432',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '35000',
+                     'Том': '1',
+                     'Формат': '20.5 x 13 x 3',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-filosofskii-kamen/2405917_1.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2405917_detail.jpg'],
+ 'price': [658],
+ 'title': 'Гарри Поттер и философский камень',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/715441/'}
+2022-05-23 00:25:20 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/152/2915253_detail.jpg> referred in <None>
+2022-05-23 00:25:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+{'features_books': [{'ID товара': '2915253',
+                     'ISBN': '978-5-04-156401-8',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2022',
+                     'Издательство': 'Эксмодетство',
+                     'Кол-во страниц': '112',
+                     'Серия': 'Гарри Поттер. Книги по фильмам',
+                     'Тираж': '3000'}],
+ 'img_info': ['full/garri-potter-origami/2915253_detail.jpg'],
+ 'price': [1345],
+ 'title': 'Гарри Поттер. Оригами',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2909494/'}
+2022-05-23 00:25:27 [scrapy.extensions.logstats] INFO: Crawled 3 pages (at 3 pages/min), scraped 2 items (at 2 items/min)
+2022-05-23 00:25:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/737677/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:25:30 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_detail.jpg> referred in <None>
+2022-05-23 00:25:30 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_1.jpg> referred in <None>
+2022-05-23 00:25:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+{'features_books': [{'ID товара': '2415361',
+                     'ISBN': '978-5-389-07781-2',
+                     'Вес, г': '510',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2014',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '480',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '30000',
+                     'Том': '2',
+                     'Формат': '20.6 x 13 x 3.7',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-tainaia-komnata/2415361_detail.jpg',
+              'full/garri-potter-i-tainaia-komnata/2415361_1.jpg'],
+ 'price': [658],
+ 'title': 'Гарри Поттер и Тайная комната',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/737677/'}
+2022-05-23 00:25:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2893944/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:25:32 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/933/2893318_detail.jpg> referred in <None>
+2022-05-23 00:25:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+{'features_books': [{'ID товара': '2893318',
+                     'ISBN': '978-5-907333-24-6',
+                     'Вес, г': '150',
+                     'Год издания': '2020',
+                     'Издательство': 'Детское время',
+                     'Кол-во страниц': '32',
+                     'Переводчик': 'Асылгареев В.Р.',
+                     'Тип обложки': 'Мягкая бумажная',
+                     'Формат': '28.8 x 20.5 x 0.3'}],
+ 'img_info': ['full/lego-harry-potter-vesiolye-raskraski-garri-potter/2893318_detail.jpg'],
+ 'price': [374],
+ 'title': 'LEGO Harry Potter - Весёлые раскраски: Гарри Поттер',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2893944/'}
+2022-05-23 00:25:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/755578/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:25:37 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_detail.jpg> referred in <None>
+2022-05-23 00:25:37 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_1.jpg> referred in <None>
+2022-05-23 00:25:37 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_2.jpg> referred in <None>
+2022-05-23 00:25:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+{'features_books': [{'ID товара': '2425429',
+                     'ISBN': '978-5-389-07788-1',
+                     'Вес, г': '560',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2014',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '528',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '30000',
+                     'Том': '3',
+                     'Формат': '20.6 x 13.2 x 3.8',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-uznik-azkabana/2425429_detail.jpg',
+              'full/garri-potter-i-uznik-azkabana/2425429_1.jpg',
+              'full/garri-potter-i-uznik-azkabana/2425429_2.jpg'],
+ 'price': [658],
+ 'title': 'Гарри Поттер и узник Азкабана',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/755578/'}
+2022-05-23 00:25:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/898528/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:25:43 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_1.jpg> referred in <None>
+2022-05-23 00:25:43 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_2.jpg> referred in <None>
+2022-05-23 00:25:43 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_detail.jpg> referred in <None>
+2022-05-23 00:25:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+{'features_books': [{'ID товара': '2517303',
+                     'ISBN': '978-5-389-10818-9',
+                     'Вес, г': '1300',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2016',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '246',
+                     'Тип обложки': 'Суперобложка',
+                     'Тираж': '17000',
+                     'Том': '1',
+                     'Формат': '27.5 x 23.5 x 2.5',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-filosofskii-kamen/2517303_1.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2517303_2.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2517303_detail.jpg'],
+ 'price': [1921],
+ 'title': 'Гарри Поттер и философский камень',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/898528/'}
+2022-05-23 00:25:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/776859/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:25:50 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_detail.jpg> referred in <None>
+2022-05-23 00:25:50 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_1.jpg> referred in <None>
+2022-05-23 00:25:50 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_2.jpg> referred in <None>
+2022-05-23 00:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+{'features_books': [{'ID товара': '2441276',
+                     'ISBN': '978-5-389-07789-8',
+                     'Вес, г': '610',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2015',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '704',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '30000',
+                     'Том': '4',
+                     'Формат': '20.6 x 13.5 x 4',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-kubok-ognia/2441276_detail.jpg',
+              'full/garri-potter-i-kubok-ognia/2441276_1.jpg',
+              'full/garri-potter-i-kubok-ognia/2441276_2.jpg'],
+ 'price': [819],
+ 'title': 'Гарри Поттер и Кубок Огня',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/776859/'}
+2022-05-23 00:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/793328/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:25:56 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_1.jpg> referred in <None>
+2022-05-23 00:25:56 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_2.jpg> referred in <None>
+2022-05-23 00:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/511/2451179_detail.jpg> (referer: None)
+2022-05-23 00:25:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/511/2451179_detail.jpg> referred in <None>
+2022-05-23 00:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/793328/>
+{'features_books': [{'ID товара': '2451179',
+                     'ISBN': '978-5-389-07790-4',
+                     'Вес, г': '760',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2015',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '896',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '30000',
+                     'Том': '5',
+                     'Формат': '20.6 x 13 x 5',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-orden-feniksa/2451179_detail.jpg',
+              'full/garri-potter-i-orden-feniksa/2451179_1.jpg',
+              'full/garri-potter-i-orden-feniksa/2451179_2.jpg'],
+ 'price': [940],
+ 'title': 'Гарри Поттер и Орден Феникса',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/793328/'}
+2022-05-23 00:26:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1213502/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_2.jpg> referred in <None>
+2022-05-23 00:26:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_1.jpg> referred in <None>
+2022-05-23 00:26:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_3.jpg> referred in <None>
+2022-05-23 00:26:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_detail.jpg> referred in <None>
+2022-05-23 00:26:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+{'features_books': [{'ID товара': '2759132',
+                     'ISBN': '978-5-389-13319-8',
+                     'Вес, г': '2090',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2019',
+                     'Издательство': 'Азбука-Аттикус',
+                     'Кол-во страниц': '454',
+                     'Переводчик': 'Спивак М.',
+                     'Серия': 'Гарри Поттер',
+                     'Тип обложки': 'Суперобложка',
+                     'Тираж': '12000',
+                     'Том': '4',
+                     'Формат': '27.7 x 23.7 x 4.5',
+                     'Художник': 'Кей Д.',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-kubok-ognia/2759132_2.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_1.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_3.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_detail.jpg'],
+ 'price': [2512],
+ 'title': 'Гарри Поттер и Кубок Огня',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/1213502/'}
+2022-05-23 00:26:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2887851/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/767/2876772_detail.jpg> (referer: None)
+2022-05-23 00:26:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/767/2876772_detail.jpg> referred in <None>
+2022-05-23 00:26:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2887851/>
+{'features_books': [{'ID товара': '2876772',
+                     'ISBN': '978-5-389-19828-9',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2021',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '240',
+                     'Серия': 'Гарри Поттер',
+                     'Тираж': '7000'}],
+ 'img_info': ['full/garri-potter-god-s-volshebstvom/2876772_detail.jpg'],
+ 'price': [1630],
+ 'title': 'Гарри Поттер. Год с волшебством',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2887851/'}
+2022-05-23 00:26:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1013872/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:14 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/26/166/2616643_detail.jpg> referred in <None>
+2022-05-23 00:26:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+{'features_books': [{'ID товара': '2616643',
+                     'ISBN': '978-5-389-11837-9',
+                     'Вес, г': '1600',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2018',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '329',
+                     'Тип обложки': 'Суперобложка',
+                     'Тираж': '10000',
+                     'Том': '3',
+                     'Формат': '27.5 x 23.5 x 3.2',
+                     'Художник': 'Кей Дж.',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-uznik-azkabana/2616643_detail.jpg'],
+ 'price': [2068],
+ 'title': 'Гарри Поттер и узник Азкабана',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/1013872/'}
+2022-05-23 00:26:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2827937/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/290/2829042_1.jpg> (referer: None)
+2022-05-23 00:26:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/290/2829042_1.jpg> referred in <None>
+2022-05-23 00:26:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2907191/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:26 [scrapy.extensions.logstats] INFO: Crawled 17 pages (at 14 pages/min), scraped 11 items (at 9 items/min)
+2022-05-23 00:26:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/290/2829042_detail.jpg> (referer: None)
+2022-05-23 00:26:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/290/2829042_detail.jpg> referred in <None>
+2022-05-23 00:26:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909495/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/290/2829042_3.jpg> (referer: None)
+2022-05-23 00:26:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/290/2829042_3.jpg> referred in <None>
+2022-05-23 00:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/827013/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/290/2829042_2.jpg> (referer: None)
+2022-05-23 00:26:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/290/2829042_2.jpg> referred in <None>
+2022-05-23 00:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2827937/>
+{'features_books': [{'ID товара': '2829042',
+                     'ISBN': '978-5-04-117603-7',
+                     'Вес, г': '620',
+                     'Возрастные ограничения': '12+',
+                     'Год издания': '2021',
+                     'Издательство': 'Эксмо',
+                     'Тип обложки': 'Картон',
+                     'Тираж': '1500',
+                     'Формат': '40.5 x 30 x 0.8'}],
+ 'img_info': ['full/harry-potter-garri-potter-poster-buk/2829042_1.jpg',
+              'full/harry-potter-garri-potter-poster-buk/2829042_detail.jpg',
+              'full/harry-potter-garri-potter-poster-buk/2829042_3.jpg',
+              'full/harry-potter-garri-potter-poster-buk/2829042_2.jpg'],
+ 'price': [1345],
+ 'title': 'Harry Potter / Гарри Поттер. Постер-бук',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2827937/'}
+2022-05-23 00:26:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/819333/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/29/113/2911362_detail.jpg> (referer: None)
+2022-05-23 00:26:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/29/113/2911362_detail.jpg> referred in <None>
+2022-05-23 00:26:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2907191/>
+{'features_books': [{'ID товара': '2911362',
+                     'ISBN': '978-5-04-156396-7',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2022',
+                     'Издательство': 'Эксмодетство',
+                     'Кол-во страниц': '144',
+                     'Серия': 'Гарри Поттер. Книги по фильмам',
+                     'Тираж': '3000'}],
+ 'img_info': ['full/garri-potter-unichtozh-krestrazhi/2911362_detail.jpg'],
+ 'price': [1345],
+ 'title': 'Гарри Поттер. Уничтожь крестражи!',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2907191/'}
+2022-05-23 00:26:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/398610/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/hobby/2885105/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:26:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/29/152/2915252_detail.jpg> (referer: None)
+2022-05-23 00:26:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/29/152/2915252_detail.jpg> referred in <None>
+2022-05-23 00:26:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909495/>
+{'features_books': [{'ID товара': '2915252',
+                     'ISBN': '978-5-04-156399-8',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2022',
+                     'Издательство': 'Эксмодетство',
+                     'Кол-во страниц': '48',
+                     'Серия': 'Гарри Поттер. Книги по фильмам',
+                     'Тираж': '3000'}],
+ 'img_info': ['full/garri-potter-nariadi-geroev/2915252_detail.jpg'],
+ 'price': [1245],
+ 'title': 'Гарри Поттер. Наряди героев',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2909495/'}
+2022-05-23 00:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/939096/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/650/2465085_detail.jpg> (referer: None)
+2022-05-23 00:27:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/650/2465085_detail.jpg> referred in <None>
+2022-05-23 00:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/827013/>
+{'features_books': [{'ID товара': '2465085',
+                     'ISBN': '978-5-389-07792-8',
+                     'Вес, г': '680',
+                     'Возрастные ограничения': '6+',
+                     'Год издания': '2015',
+                     'Издательство': 'Махаон',
+                     'Кол-во страниц': '704',
+                     'Переводчик': 'Спивак Маша',
+                     'Тип обложки': 'Твердая глянцевая',
+                     'Тираж': '40000',
+                     'Том': '7',
+                     'Формат': '20.6 x 13 x 3.5',
+                     'Цикл': 'Гарри Поттер'}],
+ 'img_info': ['full/garri-potter-i-dary-smerti/2465085_detail.jpg'],
+ 'price': [819],
+ 'title': 'Гарри Поттер и Дары смерти',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/827013/'}
+2022-05-23 00:27:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=3> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:39:43 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: chitai_gorod)
+2022-05-23 00:39:43 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-23 00:39:54 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: chitai_gorod)
+2022-05-23 00:39:54 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-23 00:40:02 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'chitai_gorod',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'chitai_gorod.spiders',
+ 'SPIDER_MODULES': ['chitai_gorod.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-23 00:40:02 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-23 00:40:02 [scrapy.extensions.telnet] INFO: Telnet Password: 32bafacece4b0a70
+2022-05-23 00:40:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-23 00:40:04 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://localhost:55419/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--start-maximized"]}}}
+2022-05-23 00:40:04 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): localhost:55419
+2022-05-23 00:40:05 [urllib3.connectionpool] DEBUG: http://localhost:55419 "POST /session HTTP/1.1" 200 789
+2022-05-23 00:40:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:40:05 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy_selenium.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-23 00:40:05 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-23 00:40:05 [scrapy.middleware] INFO: Enabled item pipelines:
+['chitai_gorod.pipelines.ChitaiGorodImagesPipeline',
+ 'chitai_gorod.pipelines.ChitaiGorodPipeline']
+2022-05-23 00:40:05 [scrapy.core.engine] INFO: Spider opened
+2022-05-23 00:40:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-23 00:40:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-23 00:40:07 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://localhost:55419/session/e1d17a74f47c06f695495186aeba79b0/url {"url": "https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80"}
+2022-05-23 00:40:33 [urllib3.connectionpool] DEBUG: http://localhost:55419 "POST /session/e1d17a74f47c06f695495186aeba79b0/url HTTP/1.1" 200 14
+2022-05-23 00:40:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:40:33 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:55419/session/e1d17a74f47c06f695495186aeba79b0/screenshot {}
+2022-05-23 00:40:33 [urllib3.connectionpool] DEBUG: http://localhost:55419 "GET /session/e1d17a74f47c06f695495186aeba79b0/screenshot HTTP/1.1" 200 85460
+2022-05-23 00:40:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:40:33 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:55419/session/e1d17a74f47c06f695495186aeba79b0/source {}
+2022-05-23 00:40:33 [urllib3.connectionpool] DEBUG: http://localhost:55419 "GET /session/e1d17a74f47c06f695495186aeba79b0/source HTTP/1.1" 200 266548
+2022-05-23 00:40:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:40:33 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://localhost:55419/session/e1d17a74f47c06f695495186aeba79b0/url {}
+2022-05-23 00:40:35 [urllib3.connectionpool] DEBUG: http://localhost:55419 "GET /session/e1d17a74f47c06f695495186aeba79b0/url HTTP/1.1" 200 131
+2022-05-23 00:40:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:40:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80> (referer: None)
+2022-05-23 00:41:20 [filelock] DEBUG: Attempting to acquire lock 2894357652768 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:41:20 [filelock] DEBUG: Lock 2894357652768 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:41:21 [filelock] DEBUG: Attempting to release lock 2894357652768 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:41:21 [filelock] DEBUG: Lock 2894357652768 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-23 00:41:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/715441/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:41:21 [scrapy.extensions.logstats] INFO: Crawled 2 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+2022-05-23 00:41:21 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/059/2405917_1.jpg> referred in <None>
+2022-05-23 00:41:21 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/059/2405917_detail.jpg> referred in <None>
+2022-05-23 00:41:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/715441/>
+{'features_books': {'ID товара': '2405917',
+                    'ISBN': '978-5-389-07435-4',
+                    'Вес, г': '460',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2014',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '432',
+                    'Переводчик': 'Спивак Маша',
+                    'Тип обложки': 'Твердая глянцевая',
+                    'Тираж': '35000',
+                    'Том': '1',
+                    'Формат': '20.5 x 13 x 3',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-filosofskii-kamen/2405917_1.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2405917_detail.jpg'],
+ 'price': [658],
+ 'title': 'Гарри Поттер и философский камень',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/715441/'}
+2022-05-23 00:41:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/737677/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:41:27 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_detail.jpg> referred in <None>
+2022-05-23 00:41:27 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_1.jpg> referred in <None>
+2022-05-23 00:41:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+{'features_books': {'ID товара': '2415361',
+                    'ISBN': '978-5-389-07781-2',
+                    'Вес, г': '510',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2014',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '480',
+                    'Переводчик': 'Спивак Маша',
+                    'Тип обложки': 'Твердая глянцевая',
+                    'Тираж': '30000',
+                    'Том': '2',
+                    'Формат': '20.6 x 13 x 3.7',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-tainaia-komnata/2415361_detail.jpg',
+              'full/garri-potter-i-tainaia-komnata/2415361_1.jpg'],
+ 'price': [658],
+ 'title': 'Гарри Поттер и Тайная комната',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/737677/'}
+2022-05-23 00:41:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909494/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:41:29 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/152/2915253_detail.jpg> referred in <None>
+2022-05-23 00:41:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+{'features_books': {'ID товара': '2915253',
+                    'ISBN': '978-5-04-156401-8',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2022',
+                    'Издательство': 'Эксмодетство',
+                    'Кол-во страниц': '112',
+                    'Серия': 'Гарри Поттер. Книги по фильмам',
+                    'Тираж': '3000'},
+ 'img_info': ['full/garri-potter-origami/2915253_detail.jpg'],
+ 'price': [1345],
+ 'title': 'Гарри Поттер. Оригами',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2909494/'}
+2022-05-23 00:41:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/898528/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:41:36 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_2.jpg> referred in <None>
+2022-05-23 00:41:36 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_1.jpg> referred in <None>
+2022-05-23 00:41:36 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_detail.jpg> referred in <None>
+2022-05-23 00:41:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+{'features_books': {'ID товара': '2517303',
+                    'ISBN': '978-5-389-10818-9',
+                    'Вес, г': '1300',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2016',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '246',
+                    'Тип обложки': 'Суперобложка',
+                    'Тираж': '17000',
+                    'Том': '1',
+                    'Формат': '27.5 x 23.5 x 2.5',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-filosofskii-kamen/2517303_2.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2517303_1.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2517303_detail.jpg'],
+ 'price': [1921],
+ 'title': 'Гарри Поттер и философский камень',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/898528/'}
+2022-05-23 00:41:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/755578/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:41:41 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_1.jpg> referred in <None>
+2022-05-23 00:41:41 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_detail.jpg> referred in <None>
+2022-05-23 00:41:41 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_2.jpg> referred in <None>
+2022-05-23 00:41:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+{'features_books': {'ID товара': '2425429',
+                    'ISBN': '978-5-389-07788-1',
+                    'Вес, г': '560',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2014',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '528',
+                    'Переводчик': 'Спивак Маша',
+                    'Тип обложки': 'Твердая глянцевая',
+                    'Тираж': '30000',
+                    'Том': '3',
+                    'Формат': '20.6 x 13.2 x 3.8',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-uznik-azkabana/2425429_1.jpg',
+              'full/garri-potter-i-uznik-azkabana/2425429_detail.jpg',
+              'full/garri-potter-i-uznik-azkabana/2425429_2.jpg'],
+ 'price': [658],
+ 'title': 'Гарри Поттер и узник Азкабана',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/755578/'}
+2022-05-23 00:41:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2893944/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:41:47 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/933/2893318_detail.jpg> referred in <None>
+2022-05-23 00:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+{'features_books': {'ID товара': '2893318',
+                    'ISBN': '978-5-907333-24-6',
+                    'Вес, г': '150',
+                    'Год издания': '2020',
+                    'Издательство': 'Детское время',
+                    'Кол-во страниц': '32',
+                    'Переводчик': 'Асылгареев В.Р.',
+                    'Тип обложки': 'Мягкая бумажная',
+                    'Формат': '28.8 x 20.5 x 0.3'},
+ 'img_info': ['full/lego-harry-potter-vesiolye-raskraski-garri-potter/2893318_detail.jpg'],
+ 'price': [374],
+ 'title': 'LEGO Harry Potter - Весёлые раскраски: Гарри Поттер',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2893944/'}
+2022-05-23 00:41:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1213502/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:41:54 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_2.jpg> referred in <None>
+2022-05-23 00:41:54 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_1.jpg> referred in <None>
+2022-05-23 00:41:54 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_detail.jpg> referred in <None>
+2022-05-23 00:41:54 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_3.jpg> referred in <None>
+2022-05-23 00:41:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+{'features_books': {'ID товара': '2759132',
+                    'ISBN': '978-5-389-13319-8',
+                    'Вес, г': '2090',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2019',
+                    'Издательство': 'Азбука-Аттикус',
+                    'Кол-во страниц': '454',
+                    'Переводчик': 'Спивак М.',
+                    'Серия': 'Гарри Поттер',
+                    'Тип обложки': 'Суперобложка',
+                    'Тираж': '12000',
+                    'Том': '4',
+                    'Формат': '27.7 x 23.7 x 4.5',
+                    'Художник': 'Кей Д.',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-kubok-ognia/2759132_2.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_1.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_detail.jpg',
+              'full/garri-potter-i-kubok-ognia/2759132_3.jpg'],
+ 'price': [2512],
+ 'title': 'Гарри Поттер и Кубок Огня',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/1213502/'}
+2022-05-23 00:42:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/793328/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_detail.jpg> referred in <None>
+2022-05-23 00:42:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_2.jpg> referred in <None>
+2022-05-23 00:42:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_1.jpg> referred in <None>
+2022-05-23 00:42:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/793328/>
+{'features_books': {'ID товара': '2451179',
+                    'ISBN': '978-5-389-07790-4',
+                    'Вес, г': '760',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2015',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '896',
+                    'Переводчик': 'Спивак Маша',
+                    'Тип обложки': 'Твердая глянцевая',
+                    'Тираж': '30000',
+                    'Том': '5',
+                    'Формат': '20.6 x 13 x 5',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-orden-feniksa/2451179_detail.jpg',
+              'full/garri-potter-i-orden-feniksa/2451179_2.jpg',
+              'full/garri-potter-i-orden-feniksa/2451179_1.jpg'],
+ 'price': [940],
+ 'title': 'Гарри Поттер и Орден Феникса',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/793328/'}
+2022-05-23 00:42:07 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 7 pages/min), scraped 8 items (at 8 items/min)
+2022-05-23 00:42:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/776859/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:07 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_2.jpg> referred in <None>
+2022-05-23 00:42:07 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_1.jpg> referred in <None>
+2022-05-23 00:42:07 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_detail.jpg> referred in <None>
+2022-05-23 00:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+{'features_books': {'ID товара': '2441276',
+                    'ISBN': '978-5-389-07789-8',
+                    'Вес, г': '610',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2015',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '704',
+                    'Переводчик': 'Спивак Маша',
+                    'Тип обложки': 'Твердая глянцевая',
+                    'Тираж': '30000',
+                    'Том': '4',
+                    'Формат': '20.6 x 13.5 x 4',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-kubok-ognia/2441276_2.jpg',
+              'full/garri-potter-i-kubok-ognia/2441276_1.jpg',
+              'full/garri-potter-i-kubok-ognia/2441276_detail.jpg'],
+ 'price': [819],
+ 'title': 'Гарри Поттер и Кубок Огня',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/776859/'}
+2022-05-23 00:42:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2887851/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:14 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/767/2876772_detail.jpg> referred in <None>
+2022-05-23 00:42:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2887851/>
+{'features_books': {'ID товара': '2876772',
+                    'ISBN': '978-5-389-19828-9',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2021',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '240',
+                    'Серия': 'Гарри Поттер',
+                    'Тираж': '7000'},
+ 'img_info': ['full/garri-potter-god-s-volshebstvom/2876772_detail.jpg'],
+ 'price': [1630],
+ 'title': 'Гарри Поттер. Год с волшебством',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2887851/'}
+2022-05-23 00:42:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1013872/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:21 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/26/166/2616643_detail.jpg> referred in <None>
+2022-05-23 00:42:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+{'features_books': {'ID товара': '2616643',
+                    'ISBN': '978-5-389-11837-9',
+                    'Вес, г': '1600',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2018',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '329',
+                    'Тип обложки': 'Суперобложка',
+                    'Тираж': '10000',
+                    'Том': '3',
+                    'Формат': '27.5 x 23.5 x 3.2',
+                    'Художник': 'Кей Дж.',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-uznik-azkabana/2616643_detail.jpg'],
+ 'price': [2068],
+ 'title': 'Гарри Поттер и узник Азкабана',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/1013872/'}
+2022-05-23 00:42:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909495/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:29 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/152/2915252_detail.jpg> referred in <None>
+2022-05-23 00:42:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909495/>
+{'features_books': {'ID товара': '2915252',
+                    'ISBN': '978-5-04-156399-8',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2022',
+                    'Издательство': 'Эксмодетство',
+                    'Кол-во страниц': '48',
+                    'Серия': 'Гарри Поттер. Книги по фильмам',
+                    'Тираж': '3000'},
+ 'img_info': ['full/garri-potter-nariadi-geroev/2915252_detail.jpg'],
+ 'price': [1245],
+ 'title': 'Гарри Поттер. Наряди героев',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2909495/'}
+2022-05-23 00:42:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2907191/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:35 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/113/2911362_detail.jpg> referred in <None>
+2022-05-23 00:42:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2907191/>
+{'features_books': {'ID товара': '2911362',
+                    'ISBN': '978-5-04-156396-7',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2022',
+                    'Издательство': 'Эксмодетство',
+                    'Кол-во страниц': '144',
+                    'Серия': 'Гарри Поттер. Книги по фильмам',
+                    'Тираж': '3000'},
+ 'img_info': ['full/garri-potter-unichtozh-krestrazhi/2911362_detail.jpg'],
+ 'price': [1345],
+ 'title': 'Гарри Поттер. Уничтожь крестражи!',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2907191/'}
+2022-05-23 00:42:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2827937/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:40 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/290/2829042_3.jpg> referred in <None>
+2022-05-23 00:42:40 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/290/2829042_detail.jpg> referred in <None>
+2022-05-23 00:42:40 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/290/2829042_2.jpg> referred in <None>
+2022-05-23 00:42:40 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/290/2829042_1.jpg> referred in <None>
+2022-05-23 00:42:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2827937/>
+{'features_books': {'ID товара': '2829042',
+                    'ISBN': '978-5-04-117603-7',
+                    'Вес, г': '620',
+                    'Возрастные ограничения': '12+',
+                    'Год издания': '2021',
+                    'Издательство': 'Эксмо',
+                    'Тип обложки': 'Картон',
+                    'Тираж': '1500',
+                    'Формат': '40.5 x 30 x 0.8'},
+ 'img_info': ['full/harry-potter-garri-potter-poster-buk/2829042_3.jpg',
+              'full/harry-potter-garri-potter-poster-buk/2829042_detail.jpg',
+              'full/harry-potter-garri-potter-poster-buk/2829042_2.jpg',
+              'full/harry-potter-garri-potter-poster-buk/2829042_1.jpg'],
+ 'price': [1345],
+ 'title': 'Harry Potter / Гарри Поттер. Постер-бук',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/2827937/'}
+2022-05-23 00:42:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/827013/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:46 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/650/2465085_detail.jpg> referred in <None>
+2022-05-23 00:42:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/827013/>
+{'features_books': {'ID товара': '2465085',
+                    'ISBN': '978-5-389-07792-8',
+                    'Вес, г': '680',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2015',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '704',
+                    'Переводчик': 'Спивак Маша',
+                    'Тип обложки': 'Твердая глянцевая',
+                    'Тираж': '40000',
+                    'Том': '7',
+                    'Формат': '20.6 x 13 x 3.5',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-dary-smerti/2465085_detail.jpg'],
+ 'price': [819],
+ 'title': 'Гарри Поттер и Дары смерти',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/827013/'}
+2022-05-23 00:42:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/398610/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/22/609/2260935_1.jpg> (referer: None)
+2022-05-23 00:42:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/22/609/2260935_1.jpg> referred in <None>
+2022-05-23 00:42:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=3> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:42:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/22/609/2260935_2.jpg> (referer: None)
+2022-05-23 00:42:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/22/609/2260935_2.jpg> referred in <None>
+2022-05-23 00:43:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/22/609/2260935_detail.jpg> (referer: None)
+2022-05-23 00:43:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/22/609/2260935_detail.jpg> referred in <None>
+2022-05-23 00:43:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1022513/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:43:07 [scrapy.extensions.logstats] INFO: Crawled 22 pages (at 13 pages/min), scraped 15 items (at 7 items/min)
+2022-05-23 00:43:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/22/609/2260935_3.jpg> (referer: None)
+2022-05-23 00:43:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/22/609/2260935_3.jpg> referred in <None>
+2022-05-23 00:43:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/398610/>
+{'features_books': {'ID товара': '2260935',
+                    'ISBN': '978-5-353-04990-6',
+                    'Вес, г': '1390',
+                    'Год издания': '2016',
+                    'Издательство': 'Росмэн-Пресс',
+                    'Кол-во страниц': '160',
+                    'Тип обложки': 'Суперобложка',
+                    'Формат': '29 x 24.5 x 2.8'},
+ 'img_info': ['full/garri-potter-rozhdenie-legendy/2260935_1.jpg',
+              'full/garri-potter-rozhdenie-legendy/2260935_2.jpg',
+              'full/garri-potter-rozhdenie-legendy/2260935_detail.jpg',
+              'full/garri-potter-rozhdenie-legendy/2260935_3.jpg'],
+ 'price': [4299],
+ 'title': 'Гарри Поттер Рождение легенды',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/398610/'}
+2022-05-23 00:43:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/939096/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:43:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/250/2625087_3.jpg> (referer: None)
+2022-05-23 00:43:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/250/2625087_3.jpg> referred in <None>
+2022-05-23 00:43:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/858451/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:43:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/250/2625087_2.jpg> (referer: None)
+2022-05-23 00:43:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/250/2625087_2.jpg> referred in <None>
+2022-05-23 00:43:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/souvenir/2833435/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:43:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/250/2625087_1.jpg> (referer: None)
+2022-05-23 00:43:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/250/2625087_1.jpg> referred in <None>
+2022-05-23 00:43:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1009743/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:43:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/250/2625087_detail.jpg> (referer: None)
+2022-05-23 00:43:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/250/2625087_detail.jpg> referred in <None>
+2022-05-23 00:43:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1022513/>
+{'features_books': {'ID товара': '2625087',
+                    'ISBN': '978-5-389-13825-4',
+                    'Вес, г': '1480',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2018',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '256',
+                    'Переводчик': 'Магомет Сергей',
+                    'Тип обложки': 'Суперобложка',
+                    'Тираж': '10000',
+                    'Формат': '27.6 x 23.8 x 2.7'},
+ 'img_info': ['full/garri-potter-istoriia-volshebstva/2625087_3.jpg',
+              'full/garri-potter-istoriia-volshebstva/2625087_2.jpg',
+              'full/garri-potter-istoriia-volshebstva/2625087_1.jpg',
+              'full/garri-potter-istoriia-volshebstva/2625087_detail.jpg'],
+ 'price': [1921],
+ 'title': 'Гарри Поттер. История волшебства',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/1022513/'}
+2022-05-23 00:43:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/hobby/2885105/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:43:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/940731/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:43:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/25/580/2558082_detail.jpg> (referer: None)
+2022-05-23 00:43:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/25/580/2558082_detail.jpg> referred in <None>
+2022-05-23 00:43:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/939096/>
+{'features_books': {'ID товара': '2558082',
+                    'ISBN': '978-5-353-08130-2',
+                    'Вес, г': '340',
+                    'Возрастные ограничения': '12+',
+                    'Год издания': '2016',
+                    'Издательство': 'Росмэн',
+                    'Кол-во страниц': '208',
+                    'Тип обложки': 'Твердая бумажная',
+                    'Тираж': '8000',
+                    'Формат': '28.7 x 24 x 2.2'},
+ 'img_info': ['full/garri-potter-magicheskie-artefakty/2558082_detail.jpg'],
+ 'price': [4499],
+ 'title': 'Гарри Поттер. Магические артефакты',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/939096/'}
+2022-05-23 00:43:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/819333/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
+2022-05-23 00:43:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/855/2485570_3.jpg> (referer: None)
+2022-05-23 00:43:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/855/2485570_3.jpg> referred in <None>
+2022-05-23 00:43:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/855/2485570_detail.jpg> (referer: None)
+2022-05-23 00:43:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/855/2485570_detail.jpg> referred in <None>
+2022-05-23 00:44:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/855/2485570_1.jpg> (referer: None)
+2022-05-23 00:44:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/855/2485570_1.jpg> referred in <None>
+2022-05-23 00:44:07 [scrapy.extensions.logstats] INFO: Crawled 38 pages (at 16 pages/min), scraped 18 items (at 3 items/min)
+2022-05-23 00:44:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/855/2485570_2.jpg> (referer: None)
+2022-05-23 00:44:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/855/2485570_2.jpg> referred in <None>
+2022-05-23 00:44:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/858451/>
+{'features_books': {'ID товара': '2485570',
+                    'ISBN': '978-5-353-07345-1',
+                    'Вес, г': '1310',
+                    'Возрастные ограничения': '12+',
+                    'Год издания': '2015',
+                    'Издательство': 'Росмэн',
+                    'Кол-во страниц': '206',
+                    'Тип обложки': 'Твердая бумажная',
+                    'Тираж': '4000',
+                    'Формат': '28.5 x 24 x 2'},
+ 'img_info': ['full/garri-potter-fantasticheskie-sushchestva/2485570_3.jpg',
+              'full/garri-potter-fantasticheskie-sushchestva/2485570_detail.jpg',
+              'full/garri-potter-fantasticheskie-sushchestva/2485570_1.jpg',
+              'full/garri-potter-fantasticheskie-sushchestva/2485570_2.jpg'],
+ 'price': [4546],
+ 'title': 'Гарри Поттер. Фантастические существа',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/858451/'}
+2022-05-23 00:44:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/305/2830586_1.jpg> (referer: None)
+2022-05-23 00:44:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/305/2830586_1.jpg> referred in <None>
+2022-05-23 00:44:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/305/2830586_detail.jpg> (referer: None)
+2022-05-23 00:44:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/305/2830586_detail.jpg> referred in <None>
+2022-05-23 00:44:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/souvenir/2833435/>
+{'features_books': {'ID товара': '2830586',
+                    'Вес, г': '30',
+                    'Размер': '13.4 x 9.2 x 0.7'},
+ 'img_info': ['full/oblozhka-dlia-pasporta-garri-potter/2830586_1.jpg',
+              'full/oblozhka-dlia-pasporta-garri-potter/2830586_detail.jpg'],
+ 'price': [244],
+ 'title': 'Обложка для паспорта "Гарри Поттер"',
+ 'url': 'https://www.chitai-gorod.ru/catalog/souvenir/2833435/'}
+2022-05-23 00:44:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/138/2613836_1.jpg> (referer: None)
+2022-05-23 00:44:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/138/2613836_1.jpg> referred in <None>
+2022-05-23 00:44:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/138/2613836_detail.jpg> (referer: None)
+2022-05-23 00:44:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/138/2613836_detail.jpg> referred in <None>
+2022-05-23 00:44:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1009743/>
+{'features_books': {'ID товара': '2613836',
+                    'ISBN': '978-5-389-13622-9',
+                    'Вес, г': '540',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2017',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '464',
+                    'Переводчик': 'Спивак Мария',
+                    'Тип обложки': 'Суперобложка',
+                    'Тираж': '4000',
+                    'Том': '1',
+                    'Формат': '20.6 x 13.5 x 2.5',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-filosofskii-kamen/2613836_1.jpg',
+              'full/garri-potter-i-filosofskii-kamen/2613836_detail.jpg'],
+ 'price': [940],
+ 'title': 'Гарри Поттер и философский камень',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/1009743/'}
+2022-05-23 00:44:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/810/2881071_3.jpg> (referer: None)
+2022-05-23 00:44:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/810/2881071_3.jpg> referred in <None>
+2022-05-23 00:44:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/810/2881071_detail.jpg> (referer: None)
+2022-05-23 00:44:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/810/2881071_detail.jpg> referred in <None>
+2022-05-23 00:44:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/810/2881071_1.jpg> (referer: None)
+2022-05-23 00:44:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/810/2881071_1.jpg> referred in <None>
+2022-05-23 00:44:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/810/2881071_2.jpg> (referer: None)
+2022-05-23 00:44:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/810/2881071_2.jpg> referred in <None>
+2022-05-23 00:44:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/hobby/2885105/>
+{'features_books': {'ID товара': '2881071',
+                    'Вес, г': '50',
+                    'Возрастные ограничения': '12+',
+                    'Размер': '20.2 x 14 x 0.3'},
+ 'img_info': ['full/nabor-stikerov-garri-potter/2881071_3.jpg',
+              'full/nabor-stikerov-garri-potter/2881071_detail.jpg',
+              'full/nabor-stikerov-garri-potter/2881071_1.jpg',
+              'full/nabor-stikerov-garri-potter/2881071_2.jpg'],
+ 'price': [196],
+ 'title': 'Набор стикеров. Гарри Поттер',
+ 'url': 'https://www.chitai-gorod.ru/catalog/hobby/2885105/'}
+2022-05-23 00:45:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/25/591/2559195_2.jpg> (referer: None)
+2022-05-23 00:45:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/25/591/2559195_2.jpg> referred in <None>
+2022-05-23 00:45:07 [scrapy.extensions.logstats] INFO: Crawled 48 pages (at 10 pages/min), scraped 22 items (at 4 items/min)
+2022-05-23 00:45:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/25/591/2559195_detail.jpg> (referer: None)
+2022-05-23 00:45:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/25/591/2559195_detail.jpg> referred in <None>
+2022-05-23 00:45:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/25/591/2559195_1.jpg> (referer: None)
+2022-05-23 00:45:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/25/591/2559195_1.jpg> referred in <None>
+2022-05-23 00:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/940731/>
+{'features_books': {'ID товара': '2559195',
+                    'ISBN': '978-5-389-11558-3',
+                    'Вес, г': '1360',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2016',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '264',
+                    'Тип обложки': 'Суперобложка',
+                    'Тираж': '10000',
+                    'Том': '2',
+                    'Формат': '27.5 x 23.5 x 3',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-tainaia-komnata/2559195_2.jpg',
+              'full/garri-potter-i-tainaia-komnata/2559195_detail.jpg',
+              'full/garri-potter-i-tainaia-komnata/2559195_1.jpg'],
+ 'price': [1921],
+ 'title': 'Гарри Поттер и Тайная комната',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/940731/'}
+2022-05-23 00:45:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/593/2459359_detail.jpg> (referer: None)
+2022-05-23 00:45:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/593/2459359_detail.jpg> referred in <None>
+2022-05-23 00:45:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/819333/>
+{'features_books': {'ID товара': '2459359',
+                    'ISBN': '978-5-389-07791-1',
+                    'Вес, г': '660',
+                    'Возрастные ограничения': '6+',
+                    'Год издания': '2015',
+                    'Издательство': 'Махаон',
+                    'Кол-во страниц': '672',
+                    'Переводчик': 'Спивак Маша',
+                    'Тип обложки': 'Твердая глянцевая',
+                    'Тираж': '40000',
+                    'Том': '6',
+                    'Формат': '20.6 x 13.3 x 3.3',
+                    'Цикл': 'Гарри Поттер'},
+ 'img_info': ['full/garri-potter-i-prints-polukrovka/2459359_detail.jpg'],
+ 'price': [819],
+ 'title': 'Гарри Поттер и Принц-полукровка',
+ 'url': 'https://www.chitai-gorod.ru/catalog/book/819333/'}
+2022-05-23 00:45:26 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-23 00:45:26 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://localhost:55419/session/e1d17a74f47c06f695495186aeba79b0 {}
+2022-05-23 00:45:26 [urllib3.connectionpool] DEBUG: http://localhost:55419 "DELETE /session/e1d17a74f47c06f695495186aeba79b0 HTTP/1.1" 200 14
+2022-05-23 00:45:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2022-05-23 00:45:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 23305,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 7927596,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 51,
+ 'elapsed_time_seconds': 319.220148,
+ 'file_count': 56,
+ 'file_status_count/downloaded': 25,
+ 'file_status_count/uptodate': 31,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 22, 19, 45, 26, 310176),
+ 'httpcompression/response_bytes': 5837994,
+ 'httpcompression/response_count': 25,
+ 'item_scraped_count': 24,
+ 'log_count/DEBUG': 155,
+ 'log_count/INFO': 15,
+ 'request_depth_max': 1,
+ 'response_received_count': 51,
+ 'scheduler/dequeued': 26,
+ 'scheduler/dequeued/memory': 26,
+ 'scheduler/enqueued': 26,
+ 'scheduler/enqueued/memory': 26,
+ 'start_time': datetime.datetime(2022, 5, 22, 19, 40, 7, 90028)}
+2022-05-23 00:45:28 [scrapy.core.engine] INFO: Spider closed (finished)

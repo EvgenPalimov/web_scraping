@@ -340,3 +340,4 @@ pip-selfcheck.json
 
 .idea
 /Lesson_5/selenium_drivers/
+/chromedriver.exe
