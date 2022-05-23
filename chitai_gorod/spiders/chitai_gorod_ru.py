@@ -76,8 +76,14 @@ class ChitaiGorodRuSpider(scrapy.Spider):
             yield response.follow(url, callback=self.parse_item, cb_kwargs=data_kwargs)
 
         try:
-            next_url = response.xpath('//div[contains(@class, "pagination")]/a//@href').extract()
+            next_url = response.xpath('//div[contains(@class, "pagination")]/a//@href').getall()
             if next_url:
-                yield response.follow(next_url[-1], callback=self.parse)
+                yield SeleniumRequest(
+                    url=f'http://chitai-gorod.ru{next_url[-1]}',
+                    wait_time=3,
+                    screenshot=True,
+                    callback=self.parse,
+                    dont_filter=True
+                )
         except Exception:
             print('Пагинация отсутствует на странице')
