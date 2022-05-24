@@ -1,0 +1,2179 @@
+2022-05-14 22:32:57 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 22:32:57 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 22:33:02 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 22:33:02 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 22:33:02 [scrapy.extensions.telnet] INFO: Telnet Password: c72d9d9444d71282
+2022-05-14 22:33:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 22:33:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 22:33:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 22:33:04 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 22:33:04 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 22:33:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 22:33:06 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 22:33:06 [filelock] DEBUG: Attempting to acquire lock 1692184122608 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 22:33:06 [filelock] DEBUG: Lock 1692184122608 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 22:33:06 [filelock] DEBUG: Attempting to release lock 1692184122608 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 22:33:06 [filelock] DEBUG: Lock 1692184122608 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 22:33:06 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 22:33:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 22:58:53 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 22:58:53 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 22:58:57 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 22:58:57 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 22:58:57 [scrapy.extensions.telnet] INFO: Telnet Password: 83637cc53f811465
+2022-05-14 22:58:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 22:58:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 22:58:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 22:58:59 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 22:58:59 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 22:59:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 22:59:00 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 22:59:00 [filelock] DEBUG: Attempting to acquire lock 1554758866016 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 22:59:00 [filelock] DEBUG: Lock 1554758866016 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 22:59:00 [filelock] DEBUG: Attempting to release lock 1554758866016 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 22:59:00 [filelock] DEBUG: Lock 1554758866016 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 22:59:00 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 22:59:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:00:26 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:00:26 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:00:30 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:00:30 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:00:30 [scrapy.extensions.telnet] INFO: Telnet Password: ed88f8420653e212
+2022-05-14 23:00:30 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:00:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:00:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:00:32 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:00:32 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:00:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:00:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:00:34 [filelock] DEBUG: Attempting to acquire lock 2594071314240 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:00:34 [filelock] DEBUG: Lock 2594071314240 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:00:34 [filelock] DEBUG: Attempting to release lock 2594071314240 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:00:34 [filelock] DEBUG: Lock 2594071314240 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:00:34 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:00:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:19:29 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:19:29 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:19:37 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:19:37 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:19:37 [scrapy.extensions.telnet] INFO: Telnet Password: 3c3a3ca21bb53369
+2022-05-14 23:19:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:19:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:19:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:19:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:19:40 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:19:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:19:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:19:43 [filelock] DEBUG: Attempting to acquire lock 1317539650048 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:19:43 [filelock] DEBUG: Lock 1317539650048 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:19:43 [filelock] DEBUG: Attempting to release lock 1317539650048 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:19:43 [filelock] DEBUG: Lock 1317539650048 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:19:43 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:19:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:23:13 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:23:13 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:23:18 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:23:18 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:23:18 [scrapy.extensions.telnet] INFO: Telnet Password: 62cdda749dd22f89
+2022-05-14 23:23:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:23:21 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:23:21 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:23:22 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:23:22 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:23:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:23:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:23:24 [filelock] DEBUG: Attempting to acquire lock 2269094254672 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:23:24 [filelock] DEBUG: Lock 2269094254672 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:23:24 [filelock] DEBUG: Attempting to release lock 2269094254672 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:23:24 [filelock] DEBUG: Lock 2269094254672 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:23:24 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:23:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:23:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\Lesson_6\jobparser\spiders\sjru.py", line 79, in parse
+    salaries = self.get_salary(salary)
+  File "C:\Users\palim\PycharmProjects\web_scraping\Lesson_6\jobparser\spiders\sjru.py", line 34, in get_salary
+    salary_min = int(salaries[1])
+ValueError: invalid literal for int() with base 10: ''
+2022-05-14 23:23:49 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-14 23:23:49 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 682,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 101591,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 25.394574,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 14, 18, 23, 49, 553439),
+ 'httpcompression/response_bytes': 590960,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 7,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2022, 5, 14, 18, 23, 24, 158865)}
+2022-05-14 23:23:49 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-14 23:24:18 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:24:18 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:24:50 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:24:50 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:24:54 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:24:54 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:24:54 [scrapy.extensions.telnet] INFO: Telnet Password: 3e586e1a7de7847b
+2022-05-14 23:24:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:24:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:24:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:24:57 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:24:57 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:24:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:24:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:24:59 [filelock] DEBUG: Attempting to acquire lock 2460647216128 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:24:59 [filelock] DEBUG: Lock 2460647216128 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:24:59 [filelock] DEBUG: Attempting to release lock 2460647216128 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:24:59 [filelock] DEBUG: Lock 2460647216128 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:24:59 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:25:39 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:25:39 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:25:44 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:25:44 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:25:44 [scrapy.extensions.telnet] INFO: Telnet Password: 6d823780cd5a2511
+2022-05-14 23:25:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:25:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:25:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:25:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:25:47 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:25:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:25:49 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:25:49 [filelock] DEBUG: Attempting to acquire lock 2120419738960 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:25:49 [filelock] DEBUG: Lock 2120419738960 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:25:49 [filelock] DEBUG: Attempting to release lock 2120419738960 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:25:49 [filelock] DEBUG: Lock 2120419738960 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:25:49 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:27:45 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:27:45 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:27:50 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:27:50 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:27:50 [scrapy.extensions.telnet] INFO: Telnet Password: 069cc2d77ccc8b05
+2022-05-14 23:27:50 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:27:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:27:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:27:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:27:53 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:27:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:27:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:27:55 [filelock] DEBUG: Attempting to acquire lock 1875312340704 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:27:55 [filelock] DEBUG: Lock 1875312340704 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:27:55 [filelock] DEBUG: Attempting to release lock 1875312340704 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:27:55 [filelock] DEBUG: Lock 1875312340704 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:27:55 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:34:06 [py.warnings] WARNING: <string>:1: FutureWarning: Possible set difference at position 8
+
+2022-05-14 23:38:59 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:38:59 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:39:07 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:39:07 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:39:07 [scrapy.extensions.telnet] INFO: Telnet Password: d5cad89fe976f05f
+2022-05-14 23:39:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:39:09 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:39:09 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:39:09 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:39:09 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:39:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:39:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:39:11 [filelock] DEBUG: Attempting to acquire lock 1916345052944 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:39:11 [filelock] DEBUG: Lock 1916345052944 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:39:11 [filelock] DEBUG: Attempting to release lock 1916345052944 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:39:11 [filelock] DEBUG: Lock 1916345052944 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:39:11 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:39:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:40:02 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:40:02 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:40:13 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:40:13 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:40:13 [scrapy.extensions.telnet] INFO: Telnet Password: 72348efe92500240
+2022-05-14 23:40:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:40:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:40:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:40:15 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:40:15 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:40:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:40:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:40:17 [filelock] DEBUG: Attempting to acquire lock 2478464620864 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:40:17 [filelock] DEBUG: Lock 2478464620864 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:40:17 [filelock] DEBUG: Attempting to release lock 2478464620864 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:40:17 [filelock] DEBUG: Lock 2478464620864 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:40:17 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:40:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:42:44 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:42:44 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:42:52 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:42:52 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:42:52 [scrapy.extensions.telnet] INFO: Telnet Password: 36e19b5b9f6769ba
+2022-05-14 23:42:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:42:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:42:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:42:54 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:42:54 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:42:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:42:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:42:56 [filelock] DEBUG: Attempting to acquire lock 1923757807312 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:42:56 [filelock] DEBUG: Lock 1923757807312 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:42:56 [filelock] DEBUG: Attempting to release lock 1923757807312 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:42:56 [filelock] DEBUG: Lock 1923757807312 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:42:56 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:43:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:44:18 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:44:18 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:44:27 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:44:27 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:44:28 [scrapy.extensions.telnet] INFO: Telnet Password: 4dd25164f033ee8b
+2022-05-14 23:44:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:44:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:44:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:44:30 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:44:30 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:44:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:44:31 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:44:31 [filelock] DEBUG: Attempting to acquire lock 2019509415840 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:44:31 [filelock] DEBUG: Lock 2019509415840 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:44:31 [filelock] DEBUG: Attempting to release lock 2019509415840 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:44:31 [filelock] DEBUG: Lock 2019509415840 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:44:31 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:44:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:45:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\Lesson_6\jobparser\spiders\sjru.py", line 78, in parse
+    salaries = self.get_salary(salary)
+  File "C:\Users\palim\PycharmProjects\web_scraping\Lesson_6\jobparser\spiders\sjru.py", line 34, in get_salary
+    salary_max = int(salaries[2])
+IndexError: list index out of range
+2022-05-14 23:45:22 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-14 23:45:22 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 682,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 101532,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 51.107496,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 14, 18, 45, 22, 439699),
+ 'httpcompression/response_bytes': 590960,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 7,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2022, 5, 14, 18, 44, 31, 332203)}
+2022-05-14 23:45:22 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-14 23:45:31 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:45:31 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:45:36 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:45:36 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:45:36 [scrapy.extensions.telnet] INFO: Telnet Password: 62ea18a844312b83
+2022-05-14 23:45:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:45:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:45:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:45:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:45:38 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:45:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:45:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:45:40 [filelock] DEBUG: Attempting to acquire lock 2329865267904 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:45:40 [filelock] DEBUG: Lock 2329865267904 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:45:40 [filelock] DEBUG: Attempting to release lock 2329865267904 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:45:40 [filelock] DEBUG: Lock 2329865267904 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:45:40 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:45:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:55:29 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:55:29 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:55:52 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:55:52 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:56:50 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:56:50 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:56:54 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:56:54 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:56:54 [scrapy.extensions.telnet] INFO: Telnet Password: c8f924cf06c04c76
+2022-05-14 23:56:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:56:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:56:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:56:56 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:56:56 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:56:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:56:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:56:58 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spiders\__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\http\request\__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\http\request\__init__.py", line 108, in _set_url
+    raise ValueError(f'Missing scheme in request url: {self._url}')
+ValueError: Missing scheme in request url: h
+2022-05-14 23:56:58 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-14 23:56:58 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.030048,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 14, 18, 56, 58, 143516),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'start_time': datetime.datetime(2022, 5, 14, 18, 56, 58, 113468)}
+2022-05-14 23:56:58 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-14 23:57:10 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:57:10 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:57:15 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:57:15 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:57:15 [scrapy.extensions.telnet] INFO: Telnet Password: 55cdf06d9cf85fba
+2022-05-14 23:57:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:57:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:57:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:57:17 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:57:17 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:57:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:57:18 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:57:18 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spiders\__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\http\request\__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\http\request\__init__.py", line 108, in _set_url
+    raise ValueError(f'Missing scheme in request url: {self._url}')
+ValueError: Missing scheme in request url: h
+2022-05-14 23:57:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-14 23:57:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.028647,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 14, 18, 57, 18, 685872),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'start_time': datetime.datetime(2022, 5, 14, 18, 57, 18, 657225)}
+2022-05-14 23:57:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-14 23:57:45 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:57:45 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:57:49 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:57:49 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:57:49 [scrapy.extensions.telnet] INFO: Telnet Password: 76b4108fa2f76926
+2022-05-14 23:57:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:57:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:57:51 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:57:51 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:57:51 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:57:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:57:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:57:52 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spiders\__init__.py", line 64, in start_requests
+    yield Request(url, dont_filter=True)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\http\request\__init__.py", line 60, in __init__
+    self._set_url(url)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\http\request\__init__.py", line 108, in _set_url
+    raise ValueError(f'Missing scheme in request url: {self._url}')
+ValueError: Missing scheme in request url: h
+2022-05-14 23:57:52 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-14 23:57:52 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.032576,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 14, 18, 57, 52, 952810),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'start_time': datetime.datetime(2022, 5, 14, 18, 57, 52, 920234)}
+2022-05-14 23:57:52 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-14 23:58:39 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-14 23:58:39 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-14 23:58:42 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-14 23:58:43 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-14 23:58:43 [scrapy.extensions.telnet] INFO: Telnet Password: f0d0b64e0c4f1817
+2022-05-14 23:58:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-14 23:58:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-14 23:58:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-14 23:58:45 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-14 23:58:45 [scrapy.core.engine] INFO: Spider opened
+2022-05-14 23:58:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-14 23:58:46 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-14 23:58:46 [filelock] DEBUG: Attempting to acquire lock 2389048491792 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:58:46 [filelock] DEBUG: Lock 2389048491792 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:58:46 [filelock] DEBUG: Attempting to release lock 2389048491792 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:58:46 [filelock] DEBUG: Lock 2389048491792 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-14 23:58:46 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:58:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-14 23:59:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 180000,
+ 'title': ['Разработчик ', 'Python'],
+ 'url': 'https://www.superjob.ru//vakansii/razrabotchik-python-41696139.html',
+ 'vacancy_for_website': 'https://www.superjob.ru/'}
+2022-05-15 00:00:43 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 00:00:43 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 00:00:48 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 00:00:48 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 00:00:48 [scrapy.extensions.telnet] INFO: Telnet Password: 5ca5caa373585e5e
+2022-05-15 00:00:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 00:00:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-15 00:00:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-15 00:00:51 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-15 00:00:51 [scrapy.core.engine] INFO: Spider opened
+2022-05-15 00:00:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-15 00:00:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-15 00:00:52 [filelock] DEBUG: Attempting to acquire lock 2494378845760 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:00:52 [filelock] DEBUG: Lock 2494378845760 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:00:52 [filelock] DEBUG: Attempting to release lock 2494378845760 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:00:52 [filelock] DEBUG: Lock 2494378845760 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:00:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:01:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-15 00:01:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 180000,
+ 'title': ['Разработчик ', 'Python'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:01:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python&page=2> (referer: https://www.superjob.ru/vacancy/search/?keywords=python)
+2022-05-15 00:02:05 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 00:02:05 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 00:02:13 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 00:02:13 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 00:02:13 [scrapy.extensions.telnet] INFO: Telnet Password: 12b9272aa573abb0
+2022-05-15 00:02:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 00:02:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-15 00:02:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-15 00:02:15 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-15 00:02:15 [scrapy.core.engine] INFO: Spider opened
+2022-05-15 00:02:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-15 00:02:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-15 00:02:16 [filelock] DEBUG: Attempting to acquire lock 1551141622688 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:02:16 [filelock] DEBUG: Lock 1551141622688 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:02:16 [filelock] DEBUG: Attempting to release lock 1551141622688 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:02:16 [filelock] DEBUG: Lock 1551141622688 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:02:16 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-15 00:02:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 180000,
+ 'title': ['Разработчик ', 'Python'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:02:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 170000,
+ 'title': ['Программист-разработчик ', 'Python', ' / Django'],
+ 'url': 'https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:02:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 90000,
+ 'title': ['Разработчик ', 'Python', ' (middle)'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43037240.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:02:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 250000,
+ 'title': ['Разработчик ', 'Python'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43083122.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:02:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 230000,
+ 'title': ['Senior ', 'Python', ' Backend Developer / Web-разработчик'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:02:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 181000,
+ 'title': ['Senior ', 'Python', ' developer / Team Lead'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43079595.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:02:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 280000,
+ 'salary_min': 200000,
+ 'title': ['Python', ' developer middle'],
+ 'url': 'https://www.superjob.ru/vakansii/python-developer-middle-42891002.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:02:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 400000,
+ 'salary_min': 300000,
+ 'title': ['Senior ', 'Python', '-developer'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43077245.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:02:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\Lesson_6\jobparser\spiders\sjru.py", line 59, in parse
+    item['salary_min'] = salaries['salary_min']
+TypeError: 'NoneType' object is not subscriptable
+2022-05-15 00:02:55 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-15 00:02:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 682,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 101653,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 39.148398,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 14, 19, 2, 55, 589522),
+ 'httpcompression/response_bytes': 590972,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 8,
+ 'log_count/DEBUG': 15,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2022, 5, 14, 19, 2, 16, 441124)}
+2022-05-15 00:02:55 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-15 00:04:05 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 00:04:05 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 00:04:09 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 00:04:09 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 00:04:09 [scrapy.extensions.telnet] INFO: Telnet Password: e193c1feb4d9a9e1
+2022-05-15 00:04:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 00:04:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-15 00:04:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-15 00:04:11 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-15 00:04:11 [scrapy.core.engine] INFO: Spider opened
+2022-05-15 00:04:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-15 00:04:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-15 00:04:12 [filelock] DEBUG: Attempting to acquire lock 2829963916336 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:04:12 [filelock] DEBUG: Lock 2829963916336 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:04:12 [filelock] DEBUG: Attempting to release lock 2829963916336 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:04:12 [filelock] DEBUG: Lock 2829963916336 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:04:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-15 00:04:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 180000,
+ 'title': ['Разработчик ', 'Python'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:04:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 170000,
+ 'title': ['Программист-разработчик ', 'Python', ' / Django'],
+ 'url': 'https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:04:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 90000,
+ 'title': ['Разработчик ', 'Python', ' (middle)'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43037240.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:04:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 250000,
+ 'title': ['Разработчик ', 'Python'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43083122.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:04:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 230000,
+ 'title': ['Senior ', 'Python', ' Backend Developer / Web-разработчик'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:04:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 181000,
+ 'title': ['Senior ', 'Python', ' developer / Team Lead'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43079595.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:04:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 280000,
+ 'salary_min': 200000,
+ 'title': ['Python', ' developer middle'],
+ 'url': 'https://www.superjob.ru/vakansii/python-developer-middle-42891002.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:04:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 400000,
+ 'salary_min': 300000,
+ 'title': ['Senior ', 'Python', '-developer'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43077245.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:04:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\Lesson_6\jobparser\spiders\sjru.py", line 59, in parse
+    item['salary_min'] = salaries['salary_min']
+TypeError: 'NoneType' object is not subscriptable
+2022-05-15 00:04:43 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-15 00:04:43 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 682,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 101525,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 31.089994,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 14, 19, 4, 43, 473723),
+ 'httpcompression/response_bytes': 590960,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 8,
+ 'log_count/DEBUG': 15,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2022, 5, 14, 19, 4, 12, 383729)}
+2022-05-15 00:04:43 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-15 00:06:27 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 00:06:27 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 00:06:32 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 00:06:32 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 00:06:32 [scrapy.extensions.telnet] INFO: Telnet Password: 2b41da7c5a4a1f56
+2022-05-15 00:06:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 00:06:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-15 00:06:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-15 00:06:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-15 00:06:38 [scrapy.core.engine] INFO: Spider opened
+2022-05-15 00:06:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-15 00:06:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-15 00:06:40 [filelock] DEBUG: Attempting to acquire lock 2349207187360 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:06:40 [filelock] DEBUG: Lock 2349207187360 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:06:40 [filelock] DEBUG: Attempting to release lock 2349207187360 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:06:40 [filelock] DEBUG: Lock 2349207187360 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 00:06:40 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:06:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-15 00:06:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 180000,
+ 'title': ['Разработчик ', 'Python'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:06:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 170000,
+ 'title': ['Программист-разработчик ', 'Python', ' / Django'],
+ 'url': 'https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:06:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 90000,
+ 'title': ['Разработчик ', 'Python', ' (middle)'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43037240.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:06:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 250000,
+ 'title': ['Разработчик ', 'Python'],
+ 'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43083122.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:07:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 230000,
+ 'title': ['Senior ', 'Python', ' Backend Developer / Web-разработчик'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:07:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 181000,
+ 'title': ['Senior ', 'Python', ' developer / Team Lead'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43079595.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:07:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 280000,
+ 'salary_min': 200000,
+ 'title': ['Python', ' developer middle'],
+ 'url': 'https://www.superjob.ru/vakansii/python-developer-middle-42891002.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:07:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 400000,
+ 'salary_min': 300000,
+ 'title': ['Senior ', 'Python', '-developer'],
+ 'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43077245.html',
+ 'vacancy_for_website': 'https://www.superjob.ru'}
+2022-05-15 00:07:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\palim\PycharmProjects\web_scraping\Lesson_6\jobparser\spiders\sjru.py", line 59, in parse
+    item['salary_min'] = salaries['salary_min']
+TypeError: 'NoneType' object is not subscriptable
+2022-05-15 00:07:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-15 00:07:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 682,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 101495,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 31.135332,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 14, 19, 7, 11, 695978),
+ 'httpcompression/response_bytes': 591069,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 8,
+ 'log_count/DEBUG': 15,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2022, 5, 14, 19, 6, 40, 560646)}
+2022-05-15 00:07:11 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-15 11:35:56 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 11:35:56 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 11:35:56 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 11:35:56 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 11:35:56 [scrapy.extensions.telnet] INFO: Telnet Password: b5c649922eaa8a3a
+2022-05-15 11:35:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 11:35:56 [twisted] CRITICAL: Unhandled error in Deferred:
+2022-05-15 11:35:56 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\twisted\internet\defer.py", line 1660, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+  File "c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\scrapy\crawler.py", line 101, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\scrapy\crawler.py", line 113, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\scrapy\spiders\__init__.py", line 48, in from_crawler
+    spider = cls(*args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'query'
+2022-05-15 11:37:38 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 11:37:38 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 11:38:00 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 11:38:00 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 11:38:46 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 11:38:46 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 11:38:46 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 11:38:46 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 11:38:46 [scrapy.extensions.telnet] INFO: Telnet Password: 9fe64a971ad10e19
+2022-05-15 11:38:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 11:38:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-15 11:38:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-15 11:38:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-15 11:38:47 [scrapy.core.engine] INFO: Spider opened
+2022-05-15 11:38:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-15 11:38:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-15 11:38:48 [filelock] DEBUG: Attempting to acquire lock 2098973773392 on c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:38:48 [filelock] DEBUG: Lock 2098973773392 acquired on c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:38:48 [filelock] DEBUG: Attempting to release lock 2098973773392 on c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:38:48 [filelock] DEBUG: Lock 2098973773392 released on c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:38:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 180000,
+ 'title': 'Разработчик Python',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-41696139.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 90000,
+ 'title': 'Разработчик Python (middle)',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-43037240.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 250000,
+ 'title': 'Разработчик Python',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-43083122.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 230000,
+ 'title': 'Senior Python Backend Developer / Web-разработчик',
+ 'url': 'superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 181000,
+ 'title': 'Senior Python developer / Team Lead',
+ 'url': 'superjob.ru/vakansii/senior-python-developer-43079595.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 280000,
+ 'salary_min': 200000,
+ 'title': 'Python developer middle',
+ 'url': 'superjob.ru/vakansii/python-developer-middle-42891002.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 400000,
+ 'salary_min': 300000,
+ 'title': 'Senior Python-developer',
+ 'url': 'superjob.ru/vakansii/senior-python-developer-43077245.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Программист Python',
+ 'url': 'superjob.ru/vakansii/programmist-python-42492612.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Программист Python (Linux)',
+ 'url': 'superjob.ru/vakansii/programmist-python-42705949.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 15000,
+ 'title': 'Специалист службы поддержки с техническими знаниями (Браузер)',
+ 'url': 'superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39820624.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Аналитик данных (ИТ аудит)',
+ 'url': 'superjob.ru/vakansii/analitik-dannyh-43118670.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 300000,
+ 'salary_min': 0,
+ 'title': 'Specialist DevOps',
+ 'url': 'superjob.ru/vakansii/specialist-devops-40719801.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'PHP-разработчик Bitrix',
+ 'url': 'superjob.ru/vakansii/php-razrabotchik-bitrix-42741473.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Ведущий математик-программист',
+ 'url': 'superjob.ru/vakansii/veduschij-matematik-programmist-40105999.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Системный инженер',
+ 'url': 'superjob.ru/vakansii/sistemnyj-inzhener-43006355.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Web-программист, web-разработчик',
+ 'url': 'superjob.ru/vakansii/web-programmist-42812841.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Инженер',
+ 'url': 'superjob.ru/vakansii/inzhener-43001418.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 150000,
+ 'title': 'Технический директор  / CTO ',
+ 'url': 'superjob.ru/vakansii/tehnicheskij-direktor-42917920.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Старший научный сотрудник',
+ 'url': 'superjob.ru/vakansii/starshij-nauchnyj-sotrudnik-41239513.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 1000,
+ 'title': 'Frontend разработчик+Flutter',
+ 'url': 'superjob.ru/vakansii/frontend-razrabotchik-43114179.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:39:00 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.superjob.ru/vacancy/search/superjob.ru/vacancy/search/?keywords=python&page=2> (referer: https://www.superjob.ru/vacancy/search/?keywords=python)
+2022-05-15 11:39:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://www.superjob.ru/vacancy/search/superjob.ru/vacancy/search/?keywords=python&page=2>: HTTP status code is not handled or not allowed
+2022-05-15 11:39:00 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-15 11:39:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1305,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 127248,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 12.096443,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 15, 6, 39, 0, 333080),
+ 'httpcompression/response_bytes': 680551,
+ 'httpcompression/response_count': 2,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/404': 1,
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 28,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2022, 5, 15, 6, 38, 48, 236637)}
+2022-05-15 11:39:00 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-15 11:43:18 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 11:43:18 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 11:43:22 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 11:43:22 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 11:43:22 [scrapy.extensions.telnet] INFO: Telnet Password: 52b3f3208d029afd
+2022-05-15 11:43:22 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 11:43:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-15 11:43:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-15 11:43:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-15 11:43:24 [scrapy.core.engine] INFO: Spider opened
+2022-05-15 11:43:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-15 11:43:26 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-15 11:43:26 [filelock] DEBUG: Attempting to acquire lock 2800492655664 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:43:26 [filelock] DEBUG: Lock 2800492655664 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:43:26 [filelock] DEBUG: Attempting to release lock 2800492655664 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:43:26 [filelock] DEBUG: Lock 2800492655664 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:43:26 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 180000,
+ 'title': 'Разработчик Python',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-41696139.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 90000,
+ 'title': 'Разработчик Python (middle)',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-43037240.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 250000,
+ 'title': 'Разработчик Python',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-43083122.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 230000,
+ 'title': 'Senior Python Backend Developer / Web-разработчик',
+ 'url': 'superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 181000,
+ 'title': 'Senior Python developer / Team Lead',
+ 'url': 'superjob.ru/vakansii/senior-python-developer-43079595.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 280000,
+ 'salary_min': 200000,
+ 'title': 'Python developer middle',
+ 'url': 'superjob.ru/vakansii/python-developer-middle-42891002.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 400000,
+ 'salary_min': 300000,
+ 'title': 'Senior Python-developer',
+ 'url': 'superjob.ru/vakansii/senior-python-developer-43077245.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Программист Python',
+ 'url': 'superjob.ru/vakansii/programmist-python-42492612.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Программист Python (Linux)',
+ 'url': 'superjob.ru/vakansii/programmist-python-42705949.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 15000,
+ 'title': 'Специалист службы поддержки с техническими знаниями (Браузер)',
+ 'url': 'superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39820624.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Аналитик данных (ИТ аудит)',
+ 'url': 'superjob.ru/vakansii/analitik-dannyh-43118670.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 300000,
+ 'salary_min': 0,
+ 'title': 'Specialist DevOps',
+ 'url': 'superjob.ru/vakansii/specialist-devops-40719801.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'PHP-разработчик Bitrix',
+ 'url': 'superjob.ru/vakansii/php-razrabotchik-bitrix-42741473.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Ведущий математик-программист',
+ 'url': 'superjob.ru/vakansii/veduschij-matematik-programmist-40105999.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Системный инженер',
+ 'url': 'superjob.ru/vakansii/sistemnyj-inzhener-43006355.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Web-программист, web-разработчик',
+ 'url': 'superjob.ru/vakansii/web-programmist-42812841.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Инженер',
+ 'url': 'superjob.ru/vakansii/inzhener-43001418.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 150000,
+ 'title': 'Технический директор  / CTO ',
+ 'url': 'superjob.ru/vakansii/tehnicheskij-direktor-42917920.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Старший научный сотрудник',
+ 'url': 'superjob.ru/vakansii/starshij-nauchnyj-sotrudnik-41239513.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 1000,
+ 'title': 'Frontend разработчик+Flutter',
+ 'url': 'superjob.ru/vakansii/frontend-razrabotchik-43114179.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:43:36 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.superjob.ru/vacancy/search/superjob.ru/vacancy/search/?keywords=python&page=2> (referer: https://www.superjob.ru/vacancy/search/?keywords=python)
+2022-05-15 11:43:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://www.superjob.ru/vacancy/search/superjob.ru/vacancy/search/?keywords=python&page=2>: HTTP status code is not handled or not allowed
+2022-05-15 11:43:36 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-15 11:43:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1305,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 127237,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 10.791134,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 15, 6, 43, 36, 940539),
+ 'httpcompression/response_bytes': 680583,
+ 'httpcompression/response_count': 2,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/404': 1,
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 28,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2022, 5, 15, 6, 43, 26, 149405)}
+2022-05-15 11:43:36 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-05-15 11:44:25 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 11:44:25 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 11:44:29 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 11:44:29 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 11:44:29 [scrapy.extensions.telnet] INFO: Telnet Password: 4e09dfbbcb229de2
+2022-05-15 11:44:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 11:44:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-15 11:44:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-15 11:44:31 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-15 11:44:31 [scrapy.core.engine] INFO: Spider opened
+2022-05-15 11:44:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-15 11:44:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-15 11:44:33 [filelock] DEBUG: Attempting to acquire lock 1998793351024 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:44:33 [filelock] DEBUG: Lock 1998793351024 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:44:33 [filelock] DEBUG: Attempting to release lock 1998793351024 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:44:33 [filelock] DEBUG: Lock 1998793351024 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:44:33 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:44:59 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-05-15 11:44:59 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
+2022-05-15 11:45:03 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jobparser',
+ 'DOWNLOAD_DELAY': 5,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'jobparser.spiders',
+ 'SPIDER_MODULES': ['jobparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
+2022-05-15 11:45:03 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-05-15 11:45:03 [scrapy.extensions.telnet] INFO: Telnet Password: 835d7c2cee071eb7
+2022-05-15 11:45:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-05-15 11:45:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-05-15 11:45:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-05-15 11:45:07 [scrapy.middleware] INFO: Enabled item pipelines:
+['jobparser.pipelines.JobparserPipeline']
+2022-05-15 11:45:07 [scrapy.core.engine] INFO: Spider opened
+2022-05-15 11:45:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-05-15 11:45:08 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-05-15 11:45:08 [filelock] DEBUG: Attempting to acquire lock 1356031670400 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:45:08 [filelock] DEBUG: Lock 1356031670400 acquired on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:45:08 [filelock] DEBUG: Attempting to release lock 1356031670400 on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:45:08 [filelock] DEBUG: Lock 1356031670400 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-05-15 11:45:08 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 180000,
+ 'title': 'Разработчик Python',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-41696139.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 90000,
+ 'title': 'Разработчик Python (middle)',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-43037240.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 250000,
+ 'title': 'Разработчик Python',
+ 'url': 'superjob.ru/vakansii/razrabotchik-python-43083122.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 230000,
+ 'title': 'Senior Python Backend Developer / Web-разработчик',
+ 'url': 'superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 181000,
+ 'title': 'Senior Python developer / Team Lead',
+ 'url': 'superjob.ru/vakansii/senior-python-developer-43079595.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 280000,
+ 'salary_min': 200000,
+ 'title': 'Python developer middle',
+ 'url': 'superjob.ru/vakansii/python-developer-middle-42891002.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 400000,
+ 'salary_min': 300000,
+ 'title': 'Senior Python-developer',
+ 'url': 'superjob.ru/vakansii/senior-python-developer-43077245.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Программист Python',
+ 'url': 'superjob.ru/vakansii/programmist-python-42492612.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Программист Python (Linux)',
+ 'url': 'superjob.ru/vakansii/programmist-python-42705949.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 15000,
+ 'title': 'Специалист службы поддержки с техническими знаниями (Браузер)',
+ 'url': 'superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39820624.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Аналитик данных (ИТ аудит)',
+ 'url': 'superjob.ru/vakansii/analitik-dannyh-43118670.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 300000,
+ 'salary_min': 0,
+ 'title': 'Specialist DevOps',
+ 'url': 'superjob.ru/vakansii/specialist-devops-40719801.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'PHP-разработчик Bitrix',
+ 'url': 'superjob.ru/vakansii/php-razrabotchik-bitrix-42741473.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Ведущий математик-программист',
+ 'url': 'superjob.ru/vakansii/veduschij-matematik-programmist-40105999.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Системный инженер',
+ 'url': 'superjob.ru/vakansii/sistemnyj-inzhener-43006355.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Web-программист, web-разработчик',
+ 'url': 'superjob.ru/vakansii/web-programmist-42812841.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Инженер',
+ 'url': 'superjob.ru/vakansii/inzhener-43001418.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 150000,
+ 'title': 'Технический директор  / CTO ',
+ 'url': 'superjob.ru/vakansii/tehnicheskij-direktor-42917920.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': '',
+ 'salary_max': 0,
+ 'salary_min': 0,
+ 'title': 'Старший научный сотрудник',
+ 'url': 'superjob.ru/vakansii/starshij-nauchnyj-sotrudnik-41239513.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+{'salary_currency': 'руб',
+ 'salary_max': 0,
+ 'salary_min': 1000,
+ 'title': 'Frontend разработчик+Flutter',
+ 'url': 'superjob.ru/vakansii/frontend-razrabotchik-43114179.html',
+ 'vacancy_for_website': 'superjob.ru'}
+2022-05-15 11:45:23 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://www.superjob.ru/vacancy/search/superjob.ru/vacancy/search/?keywords=python&page=2> (referer: https://www.superjob.ru/vacancy/search/?keywords=python)
+2022-05-15 11:45:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://www.superjob.ru/vacancy/search/superjob.ru/vacancy/search/?keywords=python&page=2>: HTTP status code is not handled or not allowed
+2022-05-15 11:45:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-05-15 11:45:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1305,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 127040,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 15.516953,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 5, 15, 6, 45, 23, 890519),
+ 'httpcompression/response_bytes': 680551,
+ 'httpcompression/response_count': 2,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/404': 1,
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 28,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2022, 5, 15, 6, 45, 8, 373566)}
+2022-05-15 11:45:23 [scrapy.core.engine] INFO: Spider closed (finished)
