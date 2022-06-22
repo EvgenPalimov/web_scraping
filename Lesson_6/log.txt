@@ -2177,3 +2177,5 @@ TypeError: __init__() missing 1 required positional argument: 'query'
  'scheduler/enqueued/memory': 3,
  'start_time': datetime.datetime(2022, 5, 15, 6, 45, 8, 373566)}
 2022-05-15 11:45:23 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-22 19:11:11 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: jobparser)
+2022-06-22 19:11:11 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 37.0.1, Platform Windows-10-10.0.19041-SP0
