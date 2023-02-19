@@ -65,7 +65,8 @@
 2022-05-23 00:21:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2893944/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:21:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/933/2893318_detail.jpg> (referer: None)
 2022-05-23 00:21:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/933/2893318_detail.jpg> referred in <None>
-2022-05-23 00:21:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+2022-05-23 00:21:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+
 {'features_books': [{'ID товара': '2893318',
                      'ISBN': '978-5-907333-24-6',
                      'Вес, г': '150',
@@ -82,7 +83,8 @@
 2022-05-23 00:21:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/737677/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:21:53 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_1.jpg> referred in <None>
 2022-05-23 00:21:53 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_detail.jpg> referred in <None>
-2022-05-23 00:21:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+2022-05-23 00:21:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+
 {'features_books': [{'ID товара': '2415361',
                      'ISBN': '978-5-389-07781-2',
                      'Вес, г': '510',
@@ -103,7 +105,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/737677/'}
 2022-05-23 00:21:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909494/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:21:59 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/152/2915253_detail.jpg> referred in <None>
-2022-05-23 00:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+2022-05-23 00:21:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+
 {'features_books': [{'ID товара': '2915253',
                      'ISBN': '978-5-04-156401-8',
                      'Возрастные ограничения': '6+',
@@ -123,7 +126,8 @@
 2022-05-23 00:22:13 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_detail.jpg> referred in <None>
 2022-05-23 00:22:13 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_1.jpg> referred in <None>
 2022-05-23 00:22:13 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_2.jpg> referred in <None>
-2022-05-23 00:22:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+2022-05-23 00:22:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+
 {'features_books': [{'ID товара': '2517303',
                      'ISBN': '978-5-389-10818-9',
                      'Вес, г': '1300',
@@ -147,7 +151,8 @@
 2022-05-23 00:22:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/755578/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:22:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/412/2441276_1.jpg> (referer: None)
 2022-05-23 00:22:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/412/2441276_1.jpg> referred in <None>
-2022-05-23 00:22:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+2022-05-23 00:22:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+
 {'features_books': [{'ID товара': '2441276',
                      'ISBN': '978-5-389-07789-8',
                      'Вес, г': '610',
@@ -178,7 +183,8 @@
 2022-05-23 00:22:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/254/2425429_1.jpg> (referer: None)
 2022-05-23 00:22:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/254/2425429_1.jpg> referred in <None>
 2022-05-23 00:22:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2907191/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
-2022-05-23 00:22:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+2022-05-23 00:22:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+
 {'features_books': [{'ID товара': '2425429',
                      'ISBN': '978-5-389-07788-1',
                      'Вес, г': '560',
@@ -200,7 +206,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/755578/'}
 2022-05-23 00:22:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/166/2616643_detail.jpg> (referer: None)
 2022-05-23 00:22:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/166/2616643_detail.jpg> referred in <None>
-2022-05-23 00:22:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+2022-05-23 00:22:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+
 {'features_books': [{'ID товара': '2616643',
                      'ISBN': '978-5-389-11837-9',
                      'Вес, г': '1600',
@@ -231,7 +238,8 @@
 2022-05-23 00:23:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/827013/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:23:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/27/591/2759132_3.jpg> (referer: None)
 2022-05-23 00:23:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/27/591/2759132_3.jpg> referred in <None>
-2022-05-23 00:23:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+2022-05-23 00:23:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+
 {'features_books': [{'ID товара': '2759132',
                      'ISBN': '978-5-389-13319-8',
                      'Вес, г': '2090',
@@ -327,7 +335,8 @@
 2022-05-23 00:25:18 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/059/2405917_1.jpg> referred in <None>
 2022-05-23 00:25:18 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/059/2405917_detail.jpg> referred in <None>
 2022-05-23 00:25:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909494/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
-2022-05-23 00:25:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/715441/>
+2022-05-23 00:25:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/715441/>
+
 {'features_books': [{'ID товара': '2405917',
                      'ISBN': '978-5-389-07435-4',
                      'Вес, г': '460',
@@ -347,7 +356,8 @@
  'title': 'Гарри Поттер и философский камень',
  'url': 'https://www.chitai-gorod.ru/catalog/book/715441/'}
 2022-05-23 00:25:20 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/152/2915253_detail.jpg> referred in <None>
-2022-05-23 00:25:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+2022-05-23 00:25:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+
 {'features_books': [{'ID товара': '2915253',
                      'ISBN': '978-5-04-156401-8',
                      'Возрастные ограничения': '6+',
@@ -364,7 +374,8 @@
 2022-05-23 00:25:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/737677/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:25:30 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_detail.jpg> referred in <None>
 2022-05-23 00:25:30 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_1.jpg> referred in <None>
-2022-05-23 00:25:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+2022-05-23 00:25:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+
 {'features_books': [{'ID товара': '2415361',
                      'ISBN': '978-5-389-07781-2',
                      'Вес, г': '510',
@@ -385,7 +396,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/737677/'}
 2022-05-23 00:25:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2893944/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:25:32 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/933/2893318_detail.jpg> referred in <None>
-2022-05-23 00:25:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+2022-05-23 00:25:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+
 {'features_books': [{'ID товара': '2893318',
                      'ISBN': '978-5-907333-24-6',
                      'Вес, г': '150',
@@ -403,7 +415,8 @@
 2022-05-23 00:25:37 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_detail.jpg> referred in <None>
 2022-05-23 00:25:37 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_1.jpg> referred in <None>
 2022-05-23 00:25:37 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_2.jpg> referred in <None>
-2022-05-23 00:25:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+2022-05-23 00:25:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+
 {'features_books': [{'ID товара': '2425429',
                      'ISBN': '978-5-389-07788-1',
                      'Вес, г': '560',
@@ -427,7 +440,8 @@
 2022-05-23 00:25:43 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_1.jpg> referred in <None>
 2022-05-23 00:25:43 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_2.jpg> referred in <None>
 2022-05-23 00:25:43 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_detail.jpg> referred in <None>
-2022-05-23 00:25:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+2022-05-23 00:25:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+
 {'features_books': [{'ID товара': '2517303',
                      'ISBN': '978-5-389-10818-9',
                      'Вес, г': '1300',
@@ -450,7 +464,8 @@
 2022-05-23 00:25:50 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_detail.jpg> referred in <None>
 2022-05-23 00:25:50 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_1.jpg> referred in <None>
 2022-05-23 00:25:50 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_2.jpg> referred in <None>
-2022-05-23 00:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+2022-05-23 00:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+
 {'features_books': [{'ID товара': '2441276',
                      'ISBN': '978-5-389-07789-8',
                      'Вес, г': '610',
@@ -475,7 +490,8 @@
 2022-05-23 00:25:56 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_2.jpg> referred in <None>
 2022-05-23 00:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/511/2451179_detail.jpg> (referer: None)
 2022-05-23 00:25:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/511/2451179_detail.jpg> referred in <None>
-2022-05-23 00:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/793328/>
+2022-05-23 00:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/793328/>
+
 {'features_books': [{'ID товара': '2451179',
                      'ISBN': '978-5-389-07790-4',
                      'Вес, г': '760',
@@ -500,7 +516,8 @@
 2022-05-23 00:26:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_1.jpg> referred in <None>
 2022-05-23 00:26:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_3.jpg> referred in <None>
 2022-05-23 00:26:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_detail.jpg> referred in <None>
-2022-05-23 00:26:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+2022-05-23 00:26:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+
 {'features_books': [{'ID товара': '2759132',
                      'ISBN': '978-5-389-13319-8',
                      'Вес, г': '2090',
@@ -526,7 +543,8 @@
 2022-05-23 00:26:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2887851/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:26:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/767/2876772_detail.jpg> (referer: None)
 2022-05-23 00:26:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/767/2876772_detail.jpg> referred in <None>
-2022-05-23 00:26:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2887851/>
+2022-05-23 00:26:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2887851/>
+
 {'features_books': [{'ID товара': '2876772',
                      'ISBN': '978-5-389-19828-9',
                      'Возрастные ограничения': '6+',
@@ -541,7 +559,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/2887851/'}
 2022-05-23 00:26:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1013872/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:26:14 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/26/166/2616643_detail.jpg> referred in <None>
-2022-05-23 00:26:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+2022-05-23 00:26:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+
 {'features_books': [{'ID товара': '2616643',
                      'ISBN': '978-5-389-11837-9',
                      'Вес, г': '1600',
@@ -572,7 +591,8 @@
 2022-05-23 00:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/827013/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/290/2829042_2.jpg> (referer: None)
 2022-05-23 00:26:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/290/2829042_2.jpg> referred in <None>
-2022-05-23 00:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2827937/>
+2022-05-23 00:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2827937/>
+
 {'features_books': [{'ID товара': '2829042',
                      'ISBN': '978-5-04-117603-7',
                      'Вес, г': '620',
@@ -592,7 +612,8 @@
 2022-05-23 00:26:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/819333/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:26:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/29/113/2911362_detail.jpg> (referer: None)
 2022-05-23 00:26:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/29/113/2911362_detail.jpg> referred in <None>
-2022-05-23 00:26:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2907191/>
+2022-05-23 00:26:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2907191/>
+
 {'features_books': [{'ID товара': '2911362',
                      'ISBN': '978-5-04-156396-7',
                      'Возрастные ограничения': '6+',
@@ -609,7 +630,8 @@
 2022-05-23 00:26:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/hobby/2885105/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:26:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/29/152/2915252_detail.jpg> (referer: None)
 2022-05-23 00:26:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/29/152/2915252_detail.jpg> referred in <None>
-2022-05-23 00:26:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909495/>
+2022-05-23 00:26:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909495/>
+
 {'features_books': [{'ID товара': '2915252',
                      'ISBN': '978-5-04-156399-8',
                      'Возрастные ограничения': '6+',
@@ -625,7 +647,8 @@
 2022-05-23 00:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/939096/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/650/2465085_detail.jpg> (referer: None)
 2022-05-23 00:27:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/650/2465085_detail.jpg> referred in <None>
-2022-05-23 00:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/827013/>
+2022-05-23 00:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/827013/>
+
 {'features_books': [{'ID товара': '2465085',
                      'ISBN': '978-5-389-07792-8',
                      'Вес, г': '680',
@@ -712,7 +735,8 @@
 2022-05-23 00:41:21 [scrapy.extensions.logstats] INFO: Crawled 2 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
 2022-05-23 00:41:21 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/059/2405917_1.jpg> referred in <None>
 2022-05-23 00:41:21 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/059/2405917_detail.jpg> referred in <None>
-2022-05-23 00:41:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/715441/>
+2022-05-23 00:41:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/715441/>
+
 {'features_books': {'ID товара': '2405917',
                     'ISBN': '978-5-389-07435-4',
                     'Вес, г': '460',
@@ -734,7 +758,8 @@
 2022-05-23 00:41:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/737677/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:41:27 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_detail.jpg> referred in <None>
 2022-05-23 00:41:27 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/153/2415361_1.jpg> referred in <None>
-2022-05-23 00:41:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+2022-05-23 00:41:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/737677/>
+
 {'features_books': {'ID товара': '2415361',
                     'ISBN': '978-5-389-07781-2',
                     'Вес, г': '510',
@@ -755,7 +780,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/737677/'}
 2022-05-23 00:41:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909494/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:41:29 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/152/2915253_detail.jpg> referred in <None>
-2022-05-23 00:41:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+2022-05-23 00:41:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909494/>
+
 {'features_books': {'ID товара': '2915253',
                     'ISBN': '978-5-04-156401-8',
                     'Возрастные ограничения': '6+',
@@ -772,7 +798,8 @@
 2022-05-23 00:41:36 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_2.jpg> referred in <None>
 2022-05-23 00:41:36 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_1.jpg> referred in <None>
 2022-05-23 00:41:36 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/25/173/2517303_detail.jpg> referred in <None>
-2022-05-23 00:41:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+2022-05-23 00:41:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/898528/>
+
 {'features_books': {'ID товара': '2517303',
                     'ISBN': '978-5-389-10818-9',
                     'Вес, г': '1300',
@@ -795,7 +822,8 @@
 2022-05-23 00:41:41 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_1.jpg> referred in <None>
 2022-05-23 00:41:41 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_detail.jpg> referred in <None>
 2022-05-23 00:41:41 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/254/2425429_2.jpg> referred in <None>
-2022-05-23 00:41:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+2022-05-23 00:41:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/755578/>
+
 {'features_books': {'ID товара': '2425429',
                     'ISBN': '978-5-389-07788-1',
                     'Вес, г': '560',
@@ -817,7 +845,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/755578/'}
 2022-05-23 00:41:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2893944/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:41:47 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/933/2893318_detail.jpg> referred in <None>
-2022-05-23 00:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+2022-05-23 00:41:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2893944/>
+
 {'features_books': {'ID товара': '2893318',
                     'ISBN': '978-5-907333-24-6',
                     'Вес, г': '150',
@@ -836,7 +865,8 @@
 2022-05-23 00:41:54 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_1.jpg> referred in <None>
 2022-05-23 00:41:54 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_detail.jpg> referred in <None>
 2022-05-23 00:41:54 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/27/591/2759132_3.jpg> referred in <None>
-2022-05-23 00:41:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+2022-05-23 00:41:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1213502/>
+
 {'features_books': {'ID товара': '2759132',
                     'ISBN': '978-5-389-13319-8',
                     'Вес, г': '2090',
@@ -863,7 +893,8 @@
 2022-05-23 00:42:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_detail.jpg> referred in <None>
 2022-05-23 00:42:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_2.jpg> referred in <None>
 2022-05-23 00:42:00 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/511/2451179_1.jpg> referred in <None>
-2022-05-23 00:42:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/793328/>
+2022-05-23 00:42:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/793328/>
+
 {'features_books': {'ID товара': '2451179',
                     'ISBN': '978-5-389-07790-4',
                     'Вес, г': '760',
@@ -888,7 +919,8 @@
 2022-05-23 00:42:07 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_2.jpg> referred in <None>
 2022-05-23 00:42:07 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_1.jpg> referred in <None>
 2022-05-23 00:42:07 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/412/2441276_detail.jpg> referred in <None>
-2022-05-23 00:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+2022-05-23 00:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/776859/>
+
 {'features_books': {'ID товара': '2441276',
                     'ISBN': '978-5-389-07789-8',
                     'Вес, г': '610',
@@ -910,7 +942,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/776859/'}
 2022-05-23 00:42:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2887851/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:42:14 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/767/2876772_detail.jpg> referred in <None>
-2022-05-23 00:42:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2887851/>
+2022-05-23 00:42:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2887851/>
+
 {'features_books': {'ID товара': '2876772',
                     'ISBN': '978-5-389-19828-9',
                     'Возрастные ограничения': '6+',
@@ -925,7 +958,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/2887851/'}
 2022-05-23 00:42:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1013872/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:42:21 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/26/166/2616643_detail.jpg> referred in <None>
-2022-05-23 00:42:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+2022-05-23 00:42:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1013872/>
+
 {'features_books': {'ID товара': '2616643',
                     'ISBN': '978-5-389-11837-9',
                     'Вес, г': '1600',
@@ -945,7 +979,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/1013872/'}
 2022-05-23 00:42:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2909495/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:42:29 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/152/2915252_detail.jpg> referred in <None>
-2022-05-23 00:42:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909495/>
+2022-05-23 00:42:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2909495/>
+
 {'features_books': {'ID товара': '2915252',
                     'ISBN': '978-5-04-156399-8',
                     'Возрастные ограничения': '6+',
@@ -960,7 +995,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/2909495/'}
 2022-05-23 00:42:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/2907191/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:42:35 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/29/113/2911362_detail.jpg> referred in <None>
-2022-05-23 00:42:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2907191/>
+2022-05-23 00:42:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2907191/>
+
 {'features_books': {'ID товара': '2911362',
                     'ISBN': '978-5-04-156396-7',
                     'Возрастные ограничения': '6+',
@@ -978,7 +1014,8 @@
 2022-05-23 00:42:40 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/290/2829042_detail.jpg> referred in <None>
 2022-05-23 00:42:40 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/290/2829042_2.jpg> referred in <None>
 2022-05-23 00:42:40 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/28/290/2829042_1.jpg> referred in <None>
-2022-05-23 00:42:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2827937/>
+2022-05-23 00:42:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/2827937/>
+
 {'features_books': {'ID товара': '2829042',
                     'ISBN': '978-5-04-117603-7',
                     'Вес, г': '620',
@@ -997,7 +1034,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/2827937/'}
 2022-05-23 00:42:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/827013/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:42:46 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://img-gorod.ru/24/650/2465085_detail.jpg> referred in <None>
-2022-05-23 00:42:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/827013/>
+2022-05-23 00:42:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/827013/>
+
 {'features_books': {'ID товара': '2465085',
                     'ISBN': '978-5-389-07792-8',
                     'Вес, г': '680',
@@ -1027,7 +1065,8 @@
 2022-05-23 00:43:07 [scrapy.extensions.logstats] INFO: Crawled 22 pages (at 13 pages/min), scraped 15 items (at 7 items/min)
 2022-05-23 00:43:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/22/609/2260935_3.jpg> (referer: None)
 2022-05-23 00:43:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/22/609/2260935_3.jpg> referred in <None>
-2022-05-23 00:43:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/398610/>
+2022-05-23 00:43:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/398610/>
+
 {'features_books': {'ID товара': '2260935',
                     'ISBN': '978-5-353-04990-6',
                     'Вес, г': '1390',
@@ -1055,7 +1094,8 @@
 2022-05-23 00:43:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/1009743/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:43:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/250/2625087_detail.jpg> (referer: None)
 2022-05-23 00:43:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/250/2625087_detail.jpg> referred in <None>
-2022-05-23 00:43:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1022513/>
+2022-05-23 00:43:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1022513/>
+
 {'features_books': {'ID товара': '2625087',
                     'ISBN': '978-5-389-13825-4',
                     'Вес, г': '1480',
@@ -1078,7 +1118,8 @@
 2022-05-23 00:43:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.chitai-gorod.ru/catalog/book/940731/> (referer: https://www.chitai-gorod.ru/search/result/?q=%D0%93%D0%B0%D1%80%D1%80%D0%B8+%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80&page=1)
 2022-05-23 00:43:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/25/580/2558082_detail.jpg> (referer: None)
 2022-05-23 00:43:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/25/580/2558082_detail.jpg> referred in <None>
-2022-05-23 00:43:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/939096/>
+2022-05-23 00:43:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/939096/>
+
 {'features_books': {'ID товара': '2558082',
                     'ISBN': '978-5-353-08130-2',
                     'Вес, г': '340',
@@ -1103,7 +1144,8 @@
 2022-05-23 00:44:07 [scrapy.extensions.logstats] INFO: Crawled 38 pages (at 16 pages/min), scraped 18 items (at 3 items/min)
 2022-05-23 00:44:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/855/2485570_2.jpg> (referer: None)
 2022-05-23 00:44:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/855/2485570_2.jpg> referred in <None>
-2022-05-23 00:44:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/858451/>
+2022-05-23 00:44:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/858451/>
+
 {'features_books': {'ID товара': '2485570',
                     'ISBN': '978-5-353-07345-1',
                     'Вес, г': '1310',
@@ -1125,7 +1167,8 @@
 2022-05-23 00:44:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/305/2830586_1.jpg> referred in <None>
 2022-05-23 00:44:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/305/2830586_detail.jpg> (referer: None)
 2022-05-23 00:44:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/305/2830586_detail.jpg> referred in <None>
-2022-05-23 00:44:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/souvenir/2833435/>
+2022-05-23 00:44:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/souvenir/2833435/>
+
 {'features_books': {'ID товара': '2830586',
                     'Вес, г': '30',
                     'Размер': '13.4 x 9.2 x 0.7'},
@@ -1138,7 +1181,8 @@
 2022-05-23 00:44:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/138/2613836_1.jpg> referred in <None>
 2022-05-23 00:44:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/26/138/2613836_detail.jpg> (referer: None)
 2022-05-23 00:44:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/26/138/2613836_detail.jpg> referred in <None>
-2022-05-23 00:44:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1009743/>
+2022-05-23 00:44:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/1009743/>
+
 {'features_books': {'ID товара': '2613836',
                     'ISBN': '978-5-389-13622-9',
                     'Вес, г': '540',
@@ -1165,7 +1209,8 @@
 2022-05-23 00:44:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/810/2881071_1.jpg> referred in <None>
 2022-05-23 00:44:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/28/810/2881071_2.jpg> (referer: None)
 2022-05-23 00:44:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/28/810/2881071_2.jpg> referred in <None>
-2022-05-23 00:44:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/hobby/2885105/>
+2022-05-23 00:44:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/hobby/2885105/>
+
 {'features_books': {'ID товара': '2881071',
                     'Вес, г': '50',
                     'Возрастные ограничения': '12+',
@@ -1184,7 +1229,8 @@
 2022-05-23 00:45:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/25/591/2559195_detail.jpg> referred in <None>
 2022-05-23 00:45:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/25/591/2559195_1.jpg> (referer: None)
 2022-05-23 00:45:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/25/591/2559195_1.jpg> referred in <None>
-2022-05-23 00:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/940731/>
+2022-05-23 00:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/940731/>
+
 {'features_books': {'ID товара': '2559195',
                     'ISBN': '978-5-389-11558-3',
                     'Вес, г': '1360',
@@ -1205,7 +1251,8 @@
  'url': 'https://www.chitai-gorod.ru/catalog/book/940731/'}
 2022-05-23 00:45:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img-gorod.ru/24/593/2459359_detail.jpg> (referer: None)
 2022-05-23 00:45:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img-gorod.ru/24/593/2459359_detail.jpg> referred in <None>
-2022-05-23 00:45:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/819333/>
+2022-05-23 00:45:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.chitai-gorod.ru/catalog/book/819333/>
+
 {'features_books': {'ID товара': '2459359',
                     'ISBN': '978-5-389-07791-1',
                     'Вес, г': '660',

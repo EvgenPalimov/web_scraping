@@ -928,7 +928,8 @@ ValueError: Missing scheme in request url: h
 2022-05-14 23:58:46 [filelock] DEBUG: Lock 2389048491792 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 2022-05-14 23:58:46 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
 2022-05-14 23:58:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
-2022-05-14 23:59:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-14 23:59:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 180000,
@@ -980,7 +981,8 @@ ValueError: Missing scheme in request url: h
 2022-05-15 00:00:52 [filelock] DEBUG: Lock 2494378845760 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 2022-05-15 00:00:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
 2022-05-15 00:01:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
-2022-05-15 00:01:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:01:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 180000,
@@ -1033,56 +1035,64 @@ ValueError: Missing scheme in request url: h
 2022-05-15 00:02:16 [filelock] DEBUG: Lock 1551141622688 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 2022-05-15 00:02:16 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
 2022-05-15 00:02:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
-2022-05-15 00:02:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 180000,
  'title': ['Разработчик ', 'Python'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:02:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 170000,
  'title': ['Программист-разработчик ', 'Python', ' / Django'],
  'url': 'https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:02:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 90000,
  'title': ['Разработчик ', 'Python', ' (middle)'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43037240.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:02:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 250000,
  'title': ['Разработчик ', 'Python'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43083122.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:02:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 230000,
  'title': ['Senior ', 'Python', ' Backend Developer / Web-разработчик'],
  'url': 'https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:02:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 181000,
  'title': ['Senior ', 'Python', ' developer / Team Lead'],
  'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43079595.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:02:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 280000,
  'salary_min': 200000,
  'title': ['Python', ' developer middle'],
  'url': 'https://www.superjob.ru/vakansii/python-developer-middle-42891002.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:02:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:02:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 400000,
  'salary_min': 300000,
@@ -1189,56 +1199,64 @@ TypeError: 'NoneType' object is not subscriptable
 2022-05-15 00:04:12 [filelock] DEBUG: Lock 2829963916336 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 2022-05-15 00:04:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
 2022-05-15 00:04:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
-2022-05-15 00:04:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 180000,
  'title': ['Разработчик ', 'Python'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:04:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 170000,
  'title': ['Программист-разработчик ', 'Python', ' / Django'],
  'url': 'https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:04:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 90000,
  'title': ['Разработчик ', 'Python', ' (middle)'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43037240.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:04:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 250000,
  'title': ['Разработчик ', 'Python'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43083122.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:04:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 230000,
  'title': ['Senior ', 'Python', ' Backend Developer / Web-разработчик'],
  'url': 'https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:04:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 181000,
  'title': ['Senior ', 'Python', ' developer / Team Lead'],
  'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43079595.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:04:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 280000,
  'salary_min': 200000,
  'title': ['Python', ' developer middle'],
  'url': 'https://www.superjob.ru/vakansii/python-developer-middle-42891002.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:04:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:04:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 400000,
  'salary_min': 300000,
@@ -1345,56 +1363,64 @@ TypeError: 'NoneType' object is not subscriptable
 2022-05-15 00:06:40 [filelock] DEBUG: Lock 2349207187360 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 2022-05-15 00:06:40 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
 2022-05-15 00:06:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
-2022-05-15 00:06:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:06:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 180000,
  'title': ['Разработчик ', 'Python'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-41696139.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:06:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:06:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 170000,
  'title': ['Программист-разработчик ', 'Python', ' / Django'],
  'url': 'https://www.superjob.ru/vakansii/programmist-razrabotchik-python-42806088.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:06:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:06:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 90000,
  'title': ['Разработчик ', 'Python', ' (middle)'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43037240.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:06:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:06:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 250000,
  'title': ['Разработчик ', 'Python'],
  'url': 'https://www.superjob.ru/vakansii/razrabotchik-python-43083122.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:07:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:07:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 230000,
  'title': ['Senior ', 'Python', ' Backend Developer / Web-разработчик'],
  'url': 'https://www.superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:07:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:07:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 181000,
  'title': ['Senior ', 'Python', ' developer / Team Lead'],
  'url': 'https://www.superjob.ru/vakansii/senior-python-developer-43079595.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:07:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:07:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 280000,
  'salary_min': 200000,
  'title': ['Python', ' developer middle'],
  'url': 'https://www.superjob.ru/vakansii/python-developer-middle-42891002.html',
  'vacancy_for_website': 'https://www.superjob.ru'}
-2022-05-15 00:07:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 00:07:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 400000,
  'salary_min': 300000,
@@ -1533,140 +1559,160 @@ TypeError: __init__() missing 1 required positional argument: 'query'
 2022-05-15 11:38:48 [filelock] DEBUG: Lock 2098973773392 released on c:\users\palim\pycharmprojects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 2022-05-15 11:38:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
 2022-05-15 11:38:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 180000,
  'title': 'Разработчик Python',
  'url': 'superjob.ru/vakansii/razrabotchik-python-41696139.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 90000,
  'title': 'Разработчик Python (middle)',
  'url': 'superjob.ru/vakansii/razrabotchik-python-43037240.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 250000,
  'title': 'Разработчик Python',
  'url': 'superjob.ru/vakansii/razrabotchik-python-43083122.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 230000,
  'title': 'Senior Python Backend Developer / Web-разработчик',
  'url': 'superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 181000,
  'title': 'Senior Python developer / Team Lead',
  'url': 'superjob.ru/vakansii/senior-python-developer-43079595.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 280000,
  'salary_min': 200000,
  'title': 'Python developer middle',
  'url': 'superjob.ru/vakansii/python-developer-middle-42891002.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 400000,
  'salary_min': 300000,
  'title': 'Senior Python-developer',
  'url': 'superjob.ru/vakansii/senior-python-developer-43077245.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Программист Python',
  'url': 'superjob.ru/vakansii/programmist-python-42492612.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Программист Python (Linux)',
  'url': 'superjob.ru/vakansii/programmist-python-42705949.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 15000,
  'title': 'Специалист службы поддержки с техническими знаниями (Браузер)',
  'url': 'superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39820624.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Аналитик данных (ИТ аудит)',
  'url': 'superjob.ru/vakansii/analitik-dannyh-43118670.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 300000,
  'salary_min': 0,
  'title': 'Specialist DevOps',
  'url': 'superjob.ru/vakansii/specialist-devops-40719801.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'PHP-разработчик Bitrix',
  'url': 'superjob.ru/vakansii/php-razrabotchik-bitrix-42741473.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Ведущий математик-программист',
  'url': 'superjob.ru/vakansii/veduschij-matematik-programmist-40105999.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Системный инженер',
  'url': 'superjob.ru/vakansii/sistemnyj-inzhener-43006355.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Web-программист, web-разработчик',
  'url': 'superjob.ru/vakansii/web-programmist-42812841.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Инженер',
  'url': 'superjob.ru/vakansii/inzhener-43001418.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 150000,
  'title': 'Технический директор  / CTO ',
  'url': 'superjob.ru/vakansii/tehnicheskij-direktor-42917920.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Старший научный сотрудник',
  'url': 'superjob.ru/vakansii/starshij-nauchnyj-sotrudnik-41239513.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:38:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 1000,
@@ -1748,140 +1794,160 @@ TypeError: __init__() missing 1 required positional argument: 'query'
 2022-05-15 11:43:26 [filelock] DEBUG: Lock 2800492655664 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 2022-05-15 11:43:26 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
 2022-05-15 11:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 180000,
  'title': 'Разработчик Python',
  'url': 'superjob.ru/vakansii/razrabotchik-python-41696139.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 90000,
  'title': 'Разработчик Python (middle)',
  'url': 'superjob.ru/vakansii/razrabotchik-python-43037240.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 250000,
  'title': 'Разработчик Python',
  'url': 'superjob.ru/vakansii/razrabotchik-python-43083122.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 230000,
  'title': 'Senior Python Backend Developer / Web-разработчик',
  'url': 'superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 181000,
  'title': 'Senior Python developer / Team Lead',
  'url': 'superjob.ru/vakansii/senior-python-developer-43079595.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 280000,
  'salary_min': 200000,
  'title': 'Python developer middle',
  'url': 'superjob.ru/vakansii/python-developer-middle-42891002.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 400000,
  'salary_min': 300000,
  'title': 'Senior Python-developer',
  'url': 'superjob.ru/vakansii/senior-python-developer-43077245.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Программист Python',
  'url': 'superjob.ru/vakansii/programmist-python-42492612.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Программист Python (Linux)',
  'url': 'superjob.ru/vakansii/programmist-python-42705949.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 15000,
  'title': 'Специалист службы поддержки с техническими знаниями (Браузер)',
  'url': 'superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39820624.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Аналитик данных (ИТ аудит)',
  'url': 'superjob.ru/vakansii/analitik-dannyh-43118670.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 300000,
  'salary_min': 0,
  'title': 'Specialist DevOps',
  'url': 'superjob.ru/vakansii/specialist-devops-40719801.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'PHP-разработчик Bitrix',
  'url': 'superjob.ru/vakansii/php-razrabotchik-bitrix-42741473.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Ведущий математик-программист',
  'url': 'superjob.ru/vakansii/veduschij-matematik-programmist-40105999.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Системный инженер',
  'url': 'superjob.ru/vakansii/sistemnyj-inzhener-43006355.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Web-программист, web-разработчик',
  'url': 'superjob.ru/vakansii/web-programmist-42812841.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Инженер',
  'url': 'superjob.ru/vakansii/inzhener-43001418.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 150000,
  'title': 'Технический директор  / CTO ',
  'url': 'superjob.ru/vakansii/tehnicheskij-direktor-42917920.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Старший научный сотрудник',
  'url': 'superjob.ru/vakansii/starshij-nauchnyj-sotrudnik-41239513.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:43:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 1000,
@@ -2007,140 +2073,160 @@ TypeError: __init__() missing 1 required positional argument: 'query'
 2022-05-15 11:45:08 [filelock] DEBUG: Lock 1356031670400 released on C:\Users\palim\PycharmProjects\web_scraping\venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 2022-05-15 11:45:08 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.superjob.ru/vacancy/search/?keywords=python> from <GET https://www.superjob.ru/vacancy/search/?keywords=python>
 2022-05-15 11:45:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.superjob.ru/vacancy/search/?keywords=python> (referer: None)
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 180000,
  'title': 'Разработчик Python',
  'url': 'superjob.ru/vakansii/razrabotchik-python-41696139.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 90000,
  'title': 'Разработчик Python (middle)',
  'url': 'superjob.ru/vakansii/razrabotchik-python-43037240.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 250000,
  'title': 'Разработчик Python',
  'url': 'superjob.ru/vakansii/razrabotchik-python-43083122.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 230000,
  'title': 'Senior Python Backend Developer / Web-разработчик',
  'url': 'superjob.ru/vakansii/senior-python-backend-developer-40866744.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 181000,
  'title': 'Senior Python developer / Team Lead',
  'url': 'superjob.ru/vakansii/senior-python-developer-43079595.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 280000,
  'salary_min': 200000,
  'title': 'Python developer middle',
  'url': 'superjob.ru/vakansii/python-developer-middle-42891002.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 400000,
  'salary_min': 300000,
  'title': 'Senior Python-developer',
  'url': 'superjob.ru/vakansii/senior-python-developer-43077245.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Программист Python',
  'url': 'superjob.ru/vakansii/programmist-python-42492612.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Программист Python (Linux)',
  'url': 'superjob.ru/vakansii/programmist-python-42705949.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 15000,
  'title': 'Специалист службы поддержки с техническими знаниями (Браузер)',
  'url': 'superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39820624.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Аналитик данных (ИТ аудит)',
  'url': 'superjob.ru/vakansii/analitik-dannyh-43118670.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 300000,
  'salary_min': 0,
  'title': 'Specialist DevOps',
  'url': 'superjob.ru/vakansii/specialist-devops-40719801.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'PHP-разработчик Bitrix',
  'url': 'superjob.ru/vakansii/php-razrabotchik-bitrix-42741473.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Ведущий математик-программист',
  'url': 'superjob.ru/vakansii/veduschij-matematik-programmist-40105999.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Системный инженер',
  'url': 'superjob.ru/vakansii/sistemnyj-inzhener-43006355.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Web-программист, web-разработчик',
  'url': 'superjob.ru/vakansii/web-programmist-42812841.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Инженер',
  'url': 'superjob.ru/vakansii/inzhener-43001418.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 150000,
  'title': 'Технический директор  / CTO ',
  'url': 'superjob.ru/vakansii/tehnicheskij-direktor-42917920.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': '',
  'salary_max': 0,
  'salary_min': 0,
  'title': 'Старший научный сотрудник',
  'url': 'superjob.ru/vakansii/starshij-nauchnyj-sotrudnik-41239513.html',
  'vacancy_for_website': 'superjob.ru'}
-2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+2022-05-15 11:45:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.superjob.ru/vacancy/search/?keywords=python>
+
 {'salary_currency': 'руб',
  'salary_max': 0,
  'salary_min': 1000,
